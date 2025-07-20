@@ -1,0 +1,757 @@
+.v-chng-ti {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.v-chng-ti .div {
+  background-color: #ffffff;
+  width: 440px;
+  height: 956px;
+  position: relative;
+}
+
+.v-chng-ti .nhm-menu {
+  position: absolute;
+  width: 407px;
+  height: 60px;
+  top: 12px;
+  left: 12px;
+}
+
+.v-chng-ti .frame {
+  position: absolute;
+  width: 440px;
+  height: 884px;
+  top: 72px;
+  left: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.v-chng-ti .frame::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.v-chng-ti .container {
+  position: relative;
+  width: 440px;
+  height: 6526px;
+}
+
+.v-chng-ti .footer {
+  position: absolute;
+  width: 440px;
+  height: 432px;
+  top: 6094px;
+  left: 0;
+  background-color: transparent;
+}
+
+.v-chng-ti .overlap-group {
+  position: relative;
+  width: 440px;
+  height: 432px;
+}
+
+.v-chng-ti .background {
+  position: absolute;
+  width: 440px;
+  height: 432px;
+  top: 0;
+  left: 0;
+  background-color: #231f20;
+}
+
+.v-chng-ti .text-wrapper {
+  position: absolute;
+  width: 283px;
+  height: 22px;
+  top: 27px;
+  left: 20px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12.8px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.v-chng-ti .tr-s-ch-nh-s-ph {
+  position: absolute;
+  width: 366px;
+  height: 148px;
+  top: 74px;
+  left: 20px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #7b7979;
+  font-size: 12.1px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.v-chng-ti .text-wrapper-2 {
+  position: absolute;
+  width: 140px;
+  height: 22px;
+  top: 237px;
+  left: 20px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12.9px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.v-chng-ti .heading {
+  position: absolute;
+  width: 400px;
+  height: 22px;
+  top: 282px;
+  left: 20px;
+}
+
+.v-chng-ti .text-wrapper-3 {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #7b7979;
+  font-size: 12.7px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.v-chng-ti .div-wrapper {
+  top: 304px;
+  position: absolute;
+  width: 400px;
+  height: 22px;
+  left: 20px;
+}
+
+.v-chng-ti .text-wrapper-4 {
+  position: absolute;
+  width: 137px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #7b7979;
+  font-size: 12.7px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.v-chng-ti .heading-2 {
+  top: 326px;
+  position: absolute;
+  width: 400px;
+  height: 22px;
+  left: 20px;
+}
+
+.v-chng-ti .text-wrapper-5 {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #7b7979;
+  font-size: 12.8px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.v-chng-ti .p {
+  position: absolute;
+  width: 265px;
+  height: 22px;
+  top: 381px;
+  left: 20px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12.1px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.v-chng-ti .img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 252px;
+  left: 356px;
+}
+
+.v-chng-ti .main {
+  position: absolute;
+  width: 440px;
+  height: 6094px;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+
+.v-chng-ti .main::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.v-chng-ti .image-wrapper {
+  height: 300px;
+  top: 0;
+  position: absolute;
+  width: 440px;
+  left: 0;
+  background-image: url(./img/background-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.v-chng-ti .image {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.v-chng-ti .background-2 {
+  height: 773px;
+  top: 300px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #faefd2;
+  position: absolute;
+  width: 440px;
+  left: 0;
+  background-image: url(./img/background-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.v-chng-ti .image-2 {
+  position: absolute;
+  width: 70px;
+  height: 100px;
+  top: 51px;
+  left: 185px;
+}
+
+.v-chng-ti .overlap-group-2 {
+  position: absolute;
+  width: 382px;
+  height: 472px;
+  top: 330px;
+  left: 23px;
+}
+
+.v-chng-ti .image-3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 110px;
+  left: 97px;
+}
+
+.v-chng-ti .image-4 {
+  position: absolute;
+  width: 233px;
+  height: 281px;
+  top: 99px;
+  left: 0;
+}
+
+.v-chng-ti .image-5 {
+  position: absolute;
+  width: 200px;
+  height: 270px;
+  top: 202px;
+  left: 97px;
+}
+
+.v-chng-ti .c-i-t-n-y-ch-a-ng-c {
+  position: absolute;
+  width: 370px;
+  height: 106px;
+  top: 0;
+  left: 12px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #faefd2;
+  font-size: 15.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.v-chng-ti .MANWAH-man-wa-c-t-o {
+  position: absolute;
+  width: 371px;
+  height: 78px;
+  top: 214px;
+  left: 35px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #faefd2;
+  font-size: 15.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.v-chng-ti .background-3 {
+  height: 956px;
+  top: 1073px;
+  position: absolute;
+  width: 440px;
+  left: 0;
+  background-image: url(./img/background-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.v-chng-ti .image-6 {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  top: 30px;
+  left: 185px;
+}
+
+.v-chng-ti .image-7 {
+  position: absolute;
+  width: 440px;
+  height: 120px;
+  top: 90px;
+  left: 0;
+}
+
+.v-chng-ti .tr-i-qua-h-nh-tr-nh {
+  position: absolute;
+  width: 380px;
+  height: 101px;
+  top: 233px;
+  left: 30px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.2px;
+}
+
+.v-chng-ti .th-ng-l-u-manwah-b-t {
+  position: absolute;
+  width: 377px;
+  height: 209px;
+  top: 392px;
+  left: 32px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.2px;
+}
+
+.v-chng-ti .image-8 {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  top: 656px;
+  left: 0;
+}
+
+.v-chng-ti .background-4 {
+  height: 4065px;
+  top: 2029px;
+  position: absolute;
+  width: 440px;
+  left: 0;
+  background-image: url(./img/background.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.v-chng-ti .image-9 {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  top: 40px;
+  left: 185px;
+}
+
+.v-chng-ti .image-10 {
+  position: absolute;
+  width: 440px;
+  height: 120px;
+  top: 120px;
+  left: 0;
+}
+
+.v-chng-ti .image-11 {
+  position: absolute;
+  width: 440px;
+  height: 500px;
+  top: 280px;
+  left: 0;
+}
+
+.v-chng-ti .image-12 {
+  position: absolute;
+  width: 440px;
+  height: 500px;
+  top: 810px;
+  left: 0;
+}
+
+.v-chng-ti .image-13 {
+  position: absolute;
+  width: 440px;
+  height: 500px;
+  top: 1340px;
+  left: 0;
+}
+
+.v-chng-ti .image-14 {
+  position: absolute;
+  width: 440px;
+  height: 500px;
+  top: 1870px;
+  left: 0;
+}
+
+.v-chng-ti .heading-t-i-manwah {
+  position: absolute;
+  width: 426px;
+  height: 49px;
+  top: 2433px;
+  left: 7px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #9d2428;
+  font-size: 16.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.v-chng-ti .gi-tr-n-h-ng-v-l-u-i {
+  position: absolute;
+  width: 378px;
+  height: 119px;
+  top: 2521px;
+  left: 31px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
+.v-chng-ti .image-15 {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  top: 2676px;
+  left: 0;
+}
+
+.v-chng-ti .image-16 {
+  position: absolute;
+  width: 133px;
+  height: 160px;
+  top: 2976px;
+  left: 0;
+}
+
+.v-chng-ti .image-17 {
+  position: absolute;
+  width: 133px;
+  height: 160px;
+  top: 2976px;
+  left: 153px;
+}
+
+.v-chng-ti .image-18 {
+  position: absolute;
+  width: 133px;
+  height: 160px;
+  top: 2976px;
+  left: 307px;
+}
+
+.v-chng-ti .i-ngu-manwah-n-l-c {
+  position: absolute;
+  width: 380px;
+  height: 119px;
+  top: 3169px;
+  left: 30px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
+.v-chng-ti .image-19 {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  top: 3324px;
+  left: 0;
+}
+
+.v-chng-ti .ba-n-m-t-ng-y-b-t-u {
+  position: absolute;
+  width: 376px;
+  height: 196px;
+  top: 3657px;
+  left: 32px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
+.v-chng-ti .v-i-h-n-nh-h-ng {
+  position: absolute;
+  width: 379px;
+  height: 68px;
+  top: 3921px;
+  left: 30px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+/* Existing CSS code */
+
+/* Add this comment where the original CSS should be injected */
+/* Original CSS code starts here */
+
+/* New and modified CSS */
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.page-container {
+  max-width: 440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.main-header {
+  padding: 12px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 407px;
+  height: 60px;
+}
+
+.main-content {
+  overflow-y: auto;
+  height: calc(100vh - 84px);
+}
+
+.hero-section {
+  height: 300px;
+  background-image: url(./img/background-2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-section {
+  padding: 30px 20px;
+  background-image: url(./img/background-4.png);
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid #faefd2;
+}
+
+.intro-icon {
+  width: 70px;
+  height: 100px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.intro-title,
+.intro-description {
+  text-align: center;
+  color: #faefd2;
+  margin-bottom: 20px;
+}
+
+.intro-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.intro-images img {
+  max-width: 30%;
+  height: auto;
+}
+
+.experience-section,
+.values-section {
+  padding: 30px 20px;
+  background-image: url(./img/background-3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-icon {
+  width: 70px;
+  height: 40px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.section-banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.experience-description,
+.experience-details,
+.values-title,
+.values-list,
+.values-description,
+.culture-description,
+.closing-statement {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-image,
+.values-image,
+.culture-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.values-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values-list li {
+  margin-bottom: 10px;
+}
+
+.values-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.values-images img {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.main-footer {
+  background-color: #231f20;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+.company-name {
+  font-size: 12.8px;
+  margin-bottom: 20px;
+}
+
+.company-address {
+  font-size: 12.1px;
+  color: #7b7979;
+  margin-bottom: 20px;
+}
+
+.support-title {
+  font-size: 12.9px;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  display: block;
+  color: #7b7979;
+  font-size: 12.7px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-size: 12.1px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 440px) {
+  .page-container {
+    width: 100%;
+  }
+}
