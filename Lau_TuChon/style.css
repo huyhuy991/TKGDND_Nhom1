@@ -1,0 +1,339 @@
+.lu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.lu .div {
+  background-color: #ffffff;
+  width: 440px;
+  height: 956px;
+  position: relative;
+}
+
+.lu .nhm-menu {
+  position: absolute;
+  width: 407px;
+  height: 60px;
+  top: 12px;
+  left: 12px;
+}
+
+.lu .text-wrapper {
+  position: absolute;
+  width: 320px;
+  top: 129px;
+  left: 22px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lu .text-wrapper-2 {
+  position: absolute;
+  width: 216px;
+  top: 160px;
+  left: 22px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lu .overlap-group {
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  top: 104px;
+  left: 16px;
+}
+
+.lu .group {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  top: 4px;
+  left: 20px;
+}
+
+.lu .text-wrapper-3 {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lu .chevron-left-wrapper {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.lu .chevron-left {
+  height: 24px;
+}
+
+.lu .frame {
+  position: relative;
+  width: 6px;
+  height: 12px;
+  top: 6px;
+  left: 9px;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.lu .frame-2 {
+  position: absolute;
+  width: 347px;
+  height: 674px;
+  top: 216px;
+  left: 46px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.lu .frame-2::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.lu .frame-wrapper {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 0;
+  left: 0;
+}
+
+.lu .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 218px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.lu .rectangle {
+  position: relative;
+  width: 161.81px;
+  height: 157.62px;
+  object-fit: cover;
+}
+
+.lu .text-wrapper-4 {
+  position: relative;
+  width: 155.08px;
+  height: 21.2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lu .text-wrapper-5 {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  top: 198px;
+  left: 43px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lu .div-wrapper {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 0;
+  left: 185px;
+}
+
+.lu .frame-4 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 228px;
+  left: 0;
+}
+
+.lu .frame-5 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 228px;
+  left: 185px;
+}
+
+.lu .frame-6 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 456px;
+  left: 0;
+}
+
+.lu .frame-7 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 456px;
+  left: 185px;
+}
+
+.lu .frame-8 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 684px;
+  left: 0;
+}
+
+.lu .frame-9 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 684px;
+  left: 185px;
+}
+
+.lu .frame-10 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 912px;
+  left: 0;
+}
+
+.lu .frame-11 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 912px;
+  left: 185px;
+}
+
+.lu .frame-12 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 1140px;
+  left: 0;
+}
+
+.lu .frame-13 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 1140px;
+  left: 185px;
+}
+
+.lu .frame-14 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 1368px;
+  left: 0;
+}
+
+.lu .frame-15 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 1368px;
+  left: 185px;
+}
+
+.lu .frame-16 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 1596px;
+  left: 0;
+}
+
+.lu .frame-17 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 1596px;
+  left: 185px;
+}
+
+.lu .group-2 {
+  position: absolute;
+  width: 440px;
+  height: 66px;
+  top: 890px;
+  left: 0;
+  background-color: #000000cc;
+}
+
+.lu .frame-18 {
+  display: flex;
+  width: 324px;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  top: 24px;
+  left: 16px;
+  overflow-x: scroll;
+}
+
+.lu .frame-18::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.lu .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ff6600;
+  font-size: 16px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lu .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

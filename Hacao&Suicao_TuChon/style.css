@@ -1,0 +1,394 @@
+.h-co-si-co {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.h-co-si-co .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 440px;
+  height: 956px;
+  position: relative;
+}
+
+.h-co-si-co .nhm-menu {
+  position: absolute;
+  width: 407px;
+  height: 60px;
+  top: 12px;
+  left: 12px;
+}
+
+.h-co-si-co .text-wrapper {
+  position: absolute;
+  width: 320px;
+  top: 129px;
+  left: 22px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.h-co-si-co .h-c-o-s-i-c-o {
+  position: absolute;
+  width: 216px;
+  top: 159px;
+  left: 22px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.h-co-si-co .overlap-group {
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  top: 104px;
+  left: 16px;
+}
+
+.h-co-si-co .group {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  top: 4px;
+  left: 20px;
+}
+
+.h-co-si-co .text-wrapper-2 {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.h-co-si-co .chevron-left-wrapper {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.h-co-si-co .chevron-left {
+  height: 24px;
+}
+
+.h-co-si-co .frame {
+  position: relative;
+  width: 6px;
+  height: 12px;
+  top: 6px;
+  left: 9px;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.h-co-si-co .frame-2 {
+  position: absolute;
+  width: 347px;
+  height: 670px;
+  top: 222px;
+  left: 46px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.h-co-si-co .frame-2::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.h-co-si-co .frame-wrapper {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 0;
+  left: 0;
+}
+
+.h-co-si-co .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 218px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.h-co-si-co .rectangle {
+  position: relative;
+  width: 161.81px;
+  height: 157.62px;
+  object-fit: cover;
+}
+
+.h-co-si-co .text-wrapper-3 {
+  position: relative;
+  width: 155.08px;
+  height: 21.2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.h-co-si-co .text-wrapper-4 {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  top: 198px;
+  left: 43px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.h-co-si-co .div-wrapper {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 0;
+  left: 185px;
+}
+
+.h-co-si-co .frame-4 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 228px;
+  left: 0;
+}
+
+.h-co-si-co .frame-5 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 228px;
+  left: 185px;
+}
+
+.h-co-si-co .frame-6 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 456px;
+  left: 0;
+}
+
+.h-co-si-co .frame-7 {
+  position: absolute;
+  width: 162px;
+  height: 218px;
+  top: 456px;
+  left: 185px;
+}
+
+.h-co-si-co .frame-8 {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: 66px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 23px 16px;
+  position: absolute;
+  top: 892px;
+  left: 0;
+  background-color: #000000cc;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.h-co-si-co .frame-9 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  overflow-x: scroll;
+}
+
+.h-co-si-co .frame-9::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.h-co-si-co .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.h-co-si-co .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ff6600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* Inject original CSS here */
+
+/* Additional styles */
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.main-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.user-profile,
+.menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 16px;
+}
+
+.breadcrumb {
+  margin-bottom: 16px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.back-link svg {
+  margin-right: 8px;
+}
+
+.page-title,
+.section-title {
+  margin-bottom: 16px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.product-name {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.product-price {
+  font-size: 14px;
+  font-style: italic;
+  color: #666666;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  border-radius: 10px 10px 0 0;
+}
+
+.category-nav ul {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding-bottom: 8px;
+}
+
+.category-nav li {
+  flex-shrink: 0;
+}
+
+.category-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.category-nav a.active {
+  color: #ff6600;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
