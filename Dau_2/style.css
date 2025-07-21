@@ -1,0 +1,392 @@
+.u {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.u .div {
+  background-color: #ffffff;
+  width: 440px;
+  height: 956px;
+  position: relative;
+}
+
+.u .nhm-menu {
+  position: absolute;
+  width: 407px;
+  height: 60px;
+  top: 12px;
+  left: 12px;
+}
+
+.u .overlap-group {
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  top: 104px;
+  left: 16px;
+}
+
+.u .group {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  top: 4px;
+  left: 20px;
+}
+
+.u .text-wrapper {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.u .chevron-left-wrapper {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.u .chevron-left {
+  height: 24px;
+}
+
+.u .frame {
+  position: relative;
+  width: 6px;
+  height: 12px;
+  top: 6px;
+  left: 9px;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.u .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 46px;
+  position: absolute;
+  top: 222px;
+  left: 36px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.u .frame-2::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.u .group-2 {
+  position: relative;
+  width: 163.81px;
+  height: 191.29px;
+}
+
+.u .rectangle {
+  position: absolute;
+  width: 162px;
+  height: 158px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.u .text-wrapper-2 {
+  position: absolute;
+  width: 155px;
+  height: 21px;
+  top: 170px;
+  left: 2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.u .group-3 {
+  position: relative;
+  width: 164px;
+  height: 190px;
+}
+
+.u .text-wrapper-3 {
+  position: absolute;
+  width: 145px;
+  height: 20px;
+  top: 170px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.u .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+  align-items: flex-start;
+  position: absolute;
+  top: 128px;
+  left: 12px;
+}
+
+.u .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.u .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.u .frame-wrapper {
+  position: absolute;
+  width: 440px;
+  height: 66px;
+  top: 890px;
+  left: 0;
+  background-color: #000000cc;
+}
+
+.u .frame-4 {
+  display: flex;
+  width: 415px;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  top: 24px;
+  left: 16px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.u .frame-4::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.u .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.u .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ff6600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* Inject original CSS here */
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  max-width: 440px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.logo {
+  width: 407px;
+  height: 60px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-item {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.location {
+  background-image: url("path-to-location-icon.svg");
+}
+
+.profile {
+  background-image: url("path-to-profile-icon.svg");
+}
+
+.menu {
+  background-image: url("path-to-menu-icon.svg");
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.back-nav {
+  padding: 16px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/vector.svg);
+  background-size: 6px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.buffet-info {
+  padding: 0 12px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.food-items {
+  display: flex;
+  gap: 46px;
+  padding: 20px 36px;
+  overflow-x: auto;
+}
+
+.food-item {
+  width: 163px;
+  text-align: center;
+}
+
+.food-image {
+  width: 162px;
+  height: 158px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.food-item h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.category-nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 24px 16px;
+}
+
+.category-nav ul {
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.category-nav li {
+  list-style: none;
+}
+
+.category-nav a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.category-nav .active {
+  color: #ff6600;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+/* Hide scrollbars for WebKit browsers */
+.food-items::-webkit-scrollbar,
+.category-nav ul::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.food-items,
+.category-nav ul {
+  scrollbar-width: none;
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 100%;
+  }
+}

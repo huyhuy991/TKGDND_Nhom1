@@ -1,0 +1,255 @@
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 440px;
+  height: 956px;
+  position: relative;
+}
+
+.menu .group {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 77px;
+  left: 360px;
+}
+
+.menu .overlap-group {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  top: -1px;
+  left: -1px;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.menu .vector {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+
+.menu .overlap {
+  position: absolute;
+  width: 215px;
+  height: 49px;
+  top: 907px;
+  left: 0;
+  background-color: #ff8f08;
+}
+
+.menu .text-wrapper {
+  position: absolute;
+  top: 16px;
+  left: 87px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #2a00ff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.menu .div-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 49px;
+  top: 907px;
+  left: 216px;
+  background-color: #ff8f08;
+}
+
+.menu .text-wrapper-2 {
+  position: absolute;
+  top: 16px;
+  left: 94px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #2a00ff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.menu .overlap-2 {
+  position: absolute;
+  width: 444px;
+  height: 164px;
+  top: 262px;
+  left: -2px;
+}
+
+.menu .frame {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  align-items: flex-start;
+  gap: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.menu .img {
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  top: 2px;
+  left: 386px;
+}
+
+.menu .line-2 {
+  position: absolute;
+  width: 440px;
+  height: 1px;
+  top: 243px;
+  left: 0;
+  object-fit: cover;
+}
+/* Original CSS code should be injected here */
+
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  position: absolute;
+  top: 77px;
+  right: 55px;
+  width: 25px;
+  height: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.vector {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  border: none;
+  margin: 243px 0 19px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  line-height: normal;
+  display: block;
+  padding: 13px 0;
+  text-decoration: none;
+}
+
+.menu-arrow {
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  top: 264px;
+  right: 54px;
+}
+
+.action-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.action-button {
+  flex: 1;
+  height: 49px;
+  background-color: #ff8f08;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #2a00ff;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.download-app {
+  border-right: 1px solid #ffffff;
+}
+
+@media (max-width: 440px) {
+  .menu-container {
+    width: 100%;
+  }
+}
