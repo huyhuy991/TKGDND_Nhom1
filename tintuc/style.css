@@ -1,4 +1,4 @@
-.tin-tc {
+.element-light {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,49 +6,23 @@
   width: 100%;
 }
 
-.tin-tc .div {
+.element-light .element-w-light {
   background-color: #ffffff;
   width: 440px;
-  height: 956px;
+  height: 10555px;
+}
+
+.element-light .body {
+  height: 10486px;
+}
+
+.element-light .container {
   position: relative;
-}
-
-.tin-tc .nhm-menu {
-  position: absolute;
-  width: 407px;
-  height: 60px;
-  top: 12px;
-  left: 12px;
-}
-
-.tin-tc .element-light {
-  position: absolute;
-  width: 440px;
-  height: 884px;
-  top: 72px;
-  left: 0;
-  background-color: #ffffff;
-  overflow: hidden;
-  box-shadow: 0px 1px 2px #0000000f, 0px 1px 3px #0000001a;
-  overflow-y: scroll;
-}
-
-.tin-tc .element-light::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.tin-tc .body {
   width: 440px;
   height: 10486px;
 }
 
-.tin-tc .container {
-  position: relative;
-  height: 10486px;
-}
-
-.tin-tc .main {
+.element-light .main {
   position: absolute;
   width: 440px;
   height: 9964px;
@@ -56,7 +30,7 @@
   left: 0;
 }
 
-.tin-tc .list {
+.element-light .list {
   position: absolute;
   width: 400px;
   height: 64px;
@@ -64,7 +38,7 @@
   left: 20px;
 }
 
-.tin-tc .item {
+.element-light .item {
   position: absolute;
   width: 84px;
   height: 24px;
@@ -72,7 +46,7 @@
   left: 0;
 }
 
-.tin-tc .div-wrapper {
+.element-light .div-wrapper {
   position: absolute;
   width: 66px;
   height: 24px;
@@ -80,7 +54,7 @@
   left: 0;
 }
 
-.tin-tc .text-wrapper {
+.element-light .text-wrapper {
   position: absolute;
   width: 66px;
   height: 19px;
@@ -95,7 +69,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-2 {
+.element-light .div {
   width: 10px;
   top: -1px;
   left: 70px;
@@ -110,7 +84,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .item-2 {
+.element-light .item-2 {
   position: absolute;
   width: 45px;
   height: 24px;
@@ -118,7 +92,7 @@
   left: 84px;
 }
 
-.tin-tc .text-wrapper-3 {
+.element-light .text-wrapper-2 {
   position: absolute;
   width: 45px;
   height: 19px;
@@ -133,18 +107,15 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg {
+.element-light .brand-gg {
   position: absolute;
   width: 440px;
   height: 205px;
   top: 64px;
   left: 0;
-  background-image: url(./img/brand-gg-21.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading {
+.element-light .heading {
   position: absolute;
   width: 400px;
   height: 44px;
@@ -152,7 +123,7 @@
   left: 20px;
 }
 
-.tin-tc .NG-k-NH-n-DEAL-MI-n {
+.element-light .NG-k-NH-n-DEAL-MI-n {
   position: absolute;
   width: 393px;
   height: 43px;
@@ -166,7 +137,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-4 {
+.element-light .text-wrapper-3 {
   width: 148px;
   top: 338px;
   left: 20px;
@@ -181,18 +152,15 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-2 {
+.element-light .img {
   height: 205px;
   top: 387px;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-26.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .linh-nh-ti-c-ngon-r-wrapper {
+.element-light .linh-nh-ti-c-ngon-r-wrapper {
   height: 44px;
   top: 611px;
   position: absolute;
@@ -200,7 +168,7 @@
   left: 20px;
 }
 
-.tin-tc .linh-nh-ti-c-ngon-r {
+.element-light .linh-nh-ti-c-ngon-r {
   position: absolute;
   width: 388px;
   height: 43px;
@@ -214,7 +182,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-5 {
+.element-light .text-wrapper-4 {
   position: absolute;
   width: 83px;
   height: 24px;
@@ -229,18 +197,15 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-3 {
+.element-light .brand-gg-2 {
   height: 205px;
   top: 711px;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-3.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading-2 {
+.element-light .heading-2 {
   height: 22px;
   top: 934px;
   position: absolute;
@@ -248,7 +213,7 @@
   left: 20px;
 }
 
-.tin-tc .p {
+.element-light .p {
   position: absolute;
   width: 313px;
   height: 21px;
@@ -263,7 +228,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-6 {
+.element-light .text-wrapper-5 {
   width: 151px;
   top: 963px;
   left: 20px;
@@ -278,18 +243,15 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-4 {
+.element-light .brand-gg-3 {
   height: 205px;
   top: 1012px;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-27.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .m-i-nh-t-golden-wrapper {
+.element-light .m-i-nh-t-golden-wrapper {
   height: 44px;
   top: 1235px;
   position: absolute;
@@ -297,7 +259,7 @@
   left: 20px;
 }
 
-.tin-tc .m-i-nh-t-golden {
+.element-light .m-i-nh-t-golden {
   position: absolute;
   width: 398px;
   height: 43px;
@@ -311,7 +273,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-7 {
+.element-light .text-wrapper-6 {
   width: 150px;
   top: 1286px;
   left: 20px;
@@ -326,18 +288,15 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-5 {
+.element-light .brand-gg-4 {
   height: 205px;
   top: 1335px;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-22.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .sinh-nh-t-r-c-r-wrapper {
+.element-light .sinh-nh-t-r-c-r-wrapper {
   height: 44px;
   top: 1558px;
   position: absolute;
@@ -345,7 +304,7 @@
   left: 20px;
 }
 
-.tin-tc .sinh-nh-t-r-c-r {
+.element-light .sinh-nh-t-r-c-r {
   position: absolute;
   width: 357px;
   height: 43px;
@@ -359,7 +318,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-8 {
+.element-light .text-wrapper-7 {
   width: 151px;
   top: 1609px;
   left: 20px;
@@ -374,18 +333,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-6 {
+.element-light .brand-gg-5 {
   height: 205px;
   top: 1658px;
+  background-image: url(./img/brand-gg-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-5.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .tuy-n-t-p-tinh-hoa-b-wrapper {
+.element-light .tuy-n-t-p-tinh-hoa-b-wrapper {
   height: 44px;
   top: 1882px;
   position: absolute;
@@ -393,7 +352,7 @@
   left: 20px;
 }
 
-.tin-tc .tuy-n-t-p-tinh-hoa-b {
+.element-light .tuy-n-t-p-tinh-hoa-b {
   position: absolute;
   width: 381px;
   height: 43px;
@@ -407,7 +366,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-9 {
+.element-light .text-wrapper-8 {
   width: 158px;
   top: 1933px;
   left: 20px;
@@ -422,18 +381,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-7 {
+.element-light .brand-gg-6 {
   height: 205px;
   top: 1982px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-23.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .b-t-i-m-i-ng-y-s-n-s-wrapper {
+.element-light .b-t-i-m-i-ng-y-s-n-s-wrapper {
   height: 44px;
   top: 2205px;
   position: absolute;
@@ -441,7 +400,7 @@
   left: 20px;
 }
 
-.tin-tc .b-t-i-m-i-ng-y-s-n-s {
+.element-light .b-t-i-m-i-ng-y-s-n-s {
   position: absolute;
   width: 396px;
   height: 43px;
@@ -455,7 +414,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-10 {
+.element-light .text-wrapper-9 {
   width: 152px;
   top: 2256px;
   left: 20px;
@@ -470,18 +429,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-8 {
+.element-light .brand-gg-7 {
   height: 205px;
   top: 2305px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .thanh-to-n-linh-ho-t-wrapper {
+.element-light .thanh-to-n-linh-ho-t-wrapper {
   height: 66px;
   top: 2528px;
   position: absolute;
@@ -489,7 +448,7 @@
   left: 20px;
 }
 
-.tin-tc .thanh-to-n-linh-ho-t {
+.element-light .thanh-to-n-linh-ho-t {
   position: absolute;
   width: 399px;
   height: 65px;
@@ -503,7 +462,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-11 {
+.element-light .text-wrapper-10 {
   width: 152px;
   top: 2601px;
   left: 20px;
@@ -518,18 +477,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-9 {
+.element-light .brand-gg-8 {
   height: 205px;
   top: 2650px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-6.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .qu-t-th-VISA-nh-n-wrapper {
+.element-light .qu-t-th-VISA-nh-n-wrapper {
   height: 44px;
   top: 2873px;
   position: absolute;
@@ -537,7 +496,7 @@
   left: 20px;
 }
 
-.tin-tc .qu-t-th-VISA-nh-n {
+.element-light .qu-t-th-VISA-nh-n {
   position: absolute;
   width: 381px;
   height: 43px;
@@ -551,7 +510,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-12 {
+.element-light .text-wrapper-11 {
   width: 89px;
   top: 2924px;
   font-size: 15.2px;
@@ -566,18 +525,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-10 {
+.element-light .brand-gg-9 {
   height: 205px;
   top: 2973px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-8.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .heading-3 {
+.element-light .heading-3 {
   height: 44px;
   top: 3197px;
   position: absolute;
@@ -585,7 +544,7 @@
   left: 20px;
 }
 
-.tin-tc .linh-nh-ti-c-ngon-r-2 {
+.element-light .linh-nh-ti-c-ngon-r-2 {
   position: absolute;
   width: 392px;
   height: 43px;
@@ -599,7 +558,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-13 {
+.element-light .text-wrapper-12 {
   width: 86px;
   top: 3248px;
   font-size: 15.1px;
@@ -614,18 +573,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-11 {
+.element-light .brand-gg-10 {
   height: 205px;
   top: 3297px;
+  background-image: url(./img/brand-gg-17.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-16.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading-4 {
+.element-light .heading-4 {
   height: 22px;
   top: 3520px;
   position: absolute;
@@ -633,7 +592,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-14 {
+.element-light .text-wrapper-13 {
   position: absolute;
   width: 357px;
   height: 21px;
@@ -648,7 +607,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-15 {
+.element-light .text-wrapper-14 {
   width: 86px;
   top: 3549px;
   font-size: 15px;
@@ -663,18 +622,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-12 {
+.element-light .brand-gg-11 {
   height: 205px;
   top: 3598px;
+  background-image: url(./img/brand-gg-25.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-24.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .l-u-h-n-i-n-t-m-th-c-wrapper {
+.element-light .l-u-h-n-i-n-t-m-th-c-wrapper {
   height: 44px;
   top: 3822px;
   position: absolute;
@@ -682,7 +641,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-16 {
+.element-light .text-wrapper-15 {
   position: absolute;
   width: 374px;
   height: 43px;
@@ -696,7 +655,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-17 {
+.element-light .text-wrapper-16 {
   width: 84px;
   top: 3873px;
   font-size: 15px;
@@ -711,18 +670,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-13 {
+.element-light .brand-gg-12 {
   height: 205px;
   top: 3922px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-28.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .heading-5 {
+.element-light .heading-5 {
   height: 22px;
   top: 4145px;
   position: absolute;
@@ -730,7 +689,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-18 {
+.element-light .text-wrapper-17 {
   position: absolute;
   width: 300px;
   height: 21px;
@@ -745,7 +704,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-19 {
+.element-light .text-wrapper-18 {
   width: 152px;
   top: 4174px;
   left: 20px;
@@ -760,18 +719,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-14 {
+.element-light .brand-gg-13 {
   height: 230px;
   top: 4223px;
+  background-image: url(./img/brand-gg-21.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-19.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .nh-ng-nguy-c-ti-m-n-wrapper {
+.element-light .nh-ng-nguy-c-ti-m-n-wrapper {
   height: 44px;
   top: 4471px;
   position: absolute;
@@ -779,7 +738,7 @@
   left: 20px;
 }
 
-.tin-tc .nh-ng-nguy-c-ti-m-n {
+.element-light .nh-ng-nguy-c-ti-m-n {
   position: absolute;
   width: 396px;
   height: 43px;
@@ -793,7 +752,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-20 {
+.element-light .text-wrapper-19 {
   width: 83px;
   top: 4522px;
   font-size: 15.1px;
@@ -808,18 +767,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-15 {
+.element-light .brand-gg-14 {
   height: 248px;
   top: 4571px;
+  background-image: url(./img/brand-gg-12.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-11.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .top-lo-i-l-u-cay-v-wrapper {
+.element-light .top-lo-i-l-u-cay-v-wrapper {
   height: 44px;
   top: 4837px;
   position: absolute;
@@ -827,7 +786,7 @@
   left: 20px;
 }
 
-.tin-tc .top-lo-i-l-u-cay-v {
+.element-light .top-lo-i-l-u-cay-v {
   position: absolute;
   width: 359px;
   height: 43px;
@@ -841,7 +800,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-21 {
+.element-light .text-wrapper-20 {
   width: 83px;
   top: 4888px;
   font-size: 15px;
@@ -856,18 +815,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-16 {
+.element-light .brand-gg-15 {
   height: 248px;
   top: 4937px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/image.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .nguy-n-t-c-v-ng-c-n-wrapper {
+.element-light .nguy-n-t-c-v-ng-c-n-wrapper {
   height: 44px;
   top: 5202px;
   position: absolute;
@@ -875,7 +834,7 @@
   left: 20px;
 }
 
-.tin-tc .nguy-n-t-c-v-ng-c-n {
+.element-light .nguy-n-t-c-v-ng-c-n {
   position: absolute;
   width: 365px;
   height: 43px;
@@ -889,7 +848,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-22 {
+.element-light .text-wrapper-21 {
   width: 83px;
   top: 5253px;
   font-size: 15px;
@@ -904,18 +863,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-17 {
+.element-light .brand-gg-16 {
   height: 248px;
   top: 5302px;
+  background-image: url(./img/brand-gg-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-4.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading-6 {
+.element-light .heading-6 {
   height: 22px;
   top: 5568px;
   position: absolute;
@@ -923,7 +882,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-23 {
+.element-light .text-wrapper-22 {
   position: absolute;
   width: 346px;
   height: 21px;
@@ -938,7 +897,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-24 {
+.element-light .text-wrapper-23 {
   width: 80px;
   top: 5597px;
   font-size: 15px;
@@ -953,18 +912,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-18 {
+.element-light .brand-gg-17 {
   height: 248px;
   top: 5646px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-10.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .element-sai-l-m-c-n-tr-nh-wrapper {
+.element-light .element-sai-l-m-c-n-tr-nh-wrapper {
   height: 44px;
   top: 5911px;
   position: absolute;
@@ -972,7 +931,7 @@
   left: 20px;
 }
 
-.tin-tc .element-sai-l-m-c-n-tr-nh {
+.element-light .element-sai-l-m-c-n-tr-nh {
   position: absolute;
   width: 372px;
   height: 43px;
@@ -986,7 +945,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-25 {
+.element-light .text-wrapper-24 {
   width: 81px;
   top: 5962px;
   font-size: 15px;
@@ -1001,18 +960,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-19 {
+.element-light .brand-gg-18 {
   height: 248px;
   top: 6011px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-7.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .g-c-review-n-u-ng-n-wrapper {
+.element-light .g-c-review-n-u-ng-n-wrapper {
   height: 44px;
   top: 6277px;
   position: absolute;
@@ -1020,7 +979,7 @@
   left: 20px;
 }
 
-.tin-tc .g-c-review-n-u-ng-n {
+.element-light .g-c-review-n-u-ng-n {
   position: absolute;
   width: 379px;
   height: 43px;
@@ -1034,7 +993,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-26 {
+.element-light .text-wrapper-25 {
   width: 81px;
   top: 6328px;
   font-size: 14.9px;
@@ -1049,18 +1008,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-20 {
+.element-light .brand-gg-19 {
   height: 248px;
   top: 6377px;
+  background-image: url(./img/brand-gg-26.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-25.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .b-t-k-p-hot-trend-v-wrapper {
+.element-light .b-t-k-p-hot-trend-v-wrapper {
   height: 44px;
   top: 6642px;
   position: absolute;
@@ -1068,7 +1027,7 @@
   left: 20px;
 }
 
-.tin-tc .b-t-k-p-hot-trend-v {
+.element-light .b-t-k-p-hot-trend-v {
   position: absolute;
   width: 393px;
   height: 43px;
@@ -1082,7 +1041,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-27 {
+.element-light .text-wrapper-26 {
   width: 80px;
   top: 6693px;
   font-size: 14.9px;
@@ -1097,18 +1056,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-21 {
+.element-light .brand-gg-20 {
   height: 248px;
   top: 6742px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-2.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .heading-7 {
+.element-light .heading-7 {
   height: 22px;
   top: 7008px;
   position: absolute;
@@ -1116,7 +1075,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-28 {
+.element-light .text-wrapper-27 {
   position: absolute;
   width: 356px;
   height: 21px;
@@ -1131,7 +1090,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-29 {
+.element-light .text-wrapper-28 {
   width: 80px;
   top: 7037px;
   font-size: 14.9px;
@@ -1146,18 +1105,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-22 {
+.element-light .brand-gg-21 {
   height: 248px;
   top: 7086px;
+  background-image: url(./img/brand-gg-19.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-17.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading-8 {
+.element-light .heading-8 {
   height: 22px;
   top: 7351px;
   position: absolute;
@@ -1165,7 +1124,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-30 {
+.element-light .text-wrapper-29 {
   position: absolute;
   width: 385px;
   height: 21px;
@@ -1180,7 +1139,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-31 {
+.element-light .text-wrapper-30 {
   width: 81px;
   top: 7380px;
   font-size: 14.9px;
@@ -1195,18 +1154,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-23 {
+.element-light .brand-gg-22 {
   height: 248px;
   top: 7429px;
+  background-image: url(./img/brand-gg-16.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-15.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading-9 {
+.element-light .heading-9 {
   height: 22px;
   top: 7695px;
   position: absolute;
@@ -1214,7 +1173,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-32 {
+.element-light .text-wrapper-31 {
   position: absolute;
   width: 372px;
   height: 21px;
@@ -1229,7 +1188,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-33 {
+.element-light .text-wrapper-32 {
   width: 84px;
   top: 7724px;
   font-size: 15.1px;
@@ -1244,18 +1203,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-24 {
+.element-light .brand-gg-23 {
   height: 248px;
   top: 7773px;
+  background-image: url(./img/brand-gg-22.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-20.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .l-u-mala-l-g-c-n-s-t-wrapper {
+.element-light .l-u-mala-l-g-c-n-s-t-wrapper {
   height: 44px;
   top: 8038px;
   position: absolute;
@@ -1263,7 +1222,7 @@
   left: 20px;
 }
 
-.tin-tc .l-u-mala-l-g-c-n-s-t {
+.element-light .l-u-mala-l-g-c-n-s-t {
   position: absolute;
   width: 383px;
   height: 43px;
@@ -1277,7 +1236,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-34 {
+.element-light .text-wrapper-33 {
   width: 82px;
   top: 8089px;
   font-size: 15px;
@@ -1292,18 +1251,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-25 {
+.element-light .brand-gg-24 {
   height: 248px;
   top: 8138px;
-  position: absolute;
-  width: 440px;
-  left: 0;
   background-image: url(./img/brand-gg-9.png);
   background-size: cover;
   background-position: 50% 50%;
+  position: absolute;
+  width: 440px;
+  left: 0;
 }
 
-.tin-tc .top-lo-i-l-u-th-i-wrapper {
+.element-light .top-lo-i-l-u-th-i-wrapper {
   height: 44px;
   top: 8404px;
   position: absolute;
@@ -1311,7 +1270,7 @@
   left: 20px;
 }
 
-.tin-tc .top-lo-i-l-u-th-i {
+.element-light .top-lo-i-l-u-th-i {
   position: absolute;
   width: 393px;
   height: 43px;
@@ -1325,7 +1284,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-35 {
+.element-light .text-wrapper-34 {
   width: 82px;
   top: 8455px;
   font-size: 15px;
@@ -1340,18 +1299,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-26 {
+.element-light .brand-gg-25 {
   height: 248px;
   top: 8504px;
+  background-image: url(./img/brand-gg-20.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-18.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .ti-u-ch-ch-n-qu-n-l-wrapper {
+.element-light .ti-u-ch-ch-n-qu-n-l-wrapper {
   height: 44px;
   top: 8769px;
   position: absolute;
@@ -1359,7 +1318,7 @@
   left: 20px;
 }
 
-.tin-tc .ti-u-ch-ch-n-qu-n-l {
+.element-light .ti-u-ch-ch-n-qu-n-l {
   position: absolute;
   width: 373px;
   height: 43px;
@@ -1373,7 +1332,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-36 {
+.element-light .text-wrapper-35 {
   width: 82px;
   top: 8820px;
   font-size: 15px;
@@ -1388,18 +1347,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-27 {
+.element-light .brand-gg-26 {
   height: 248px;
   top: 8869px;
+  background-image: url(./img/brand-gg-14.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-13.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .review-qu-n-l-u-n-m-wrapper {
+.element-light .review-qu-n-l-u-n-m-wrapper {
   height: 44px;
   top: 9135px;
   position: absolute;
@@ -1407,7 +1366,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-37 {
+.element-light .text-wrapper-36 {
   width: 82px;
   top: 9186px;
   font-size: 15px;
@@ -1422,18 +1381,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-28 {
+.element-light .brand-gg-27 {
   height: 248px;
   top: 9235px;
+  background-image: url(./img/brand-gg-13.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-12.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .heading-10 {
+.element-light .heading-10 {
   height: 22px;
   top: 9500px;
   position: absolute;
@@ -1441,7 +1400,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-38 {
+.element-light .text-wrapper-37 {
   position: absolute;
   width: 374px;
   height: 21px;
@@ -1456,7 +1415,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-39 {
+.element-light .text-wrapper-38 {
   width: 82px;
   top: 9529px;
   font-size: 15px;
@@ -1471,18 +1430,18 @@
   white-space: nowrap;
 }
 
-.tin-tc .brand-gg-29 {
+.element-light .brand-gg-28 {
   height: 248px;
   top: 9578px;
+  background-image: url(./img/brand-gg-15.png);
+  background-size: cover;
+  background-position: 50% 50%;
   position: absolute;
   width: 440px;
   left: 0;
-  background-image: url(./img/brand-gg-14.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.tin-tc .n-m-nhi-u-t-ng-h-ng-wrapper {
+.element-light .n-m-nhi-u-t-ng-h-ng-wrapper {
   height: 44px;
   top: 9844px;
   position: absolute;
@@ -1490,7 +1449,7 @@
   left: 20px;
 }
 
-.tin-tc .n-m-nhi-u-t-ng-h-ng {
+.element-light .n-m-nhi-u-t-ng-h-ng {
   position: absolute;
   width: 359px;
   height: 43px;
@@ -1504,7 +1463,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-40 {
+.element-light .text-wrapper-39 {
   width: 88px;
   top: 9895px;
   font-size: 15.1px;
@@ -1519,7 +1478,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .footer {
+.element-light .footer {
   position: absolute;
   width: 440px;
   height: 432px;
@@ -1528,13 +1487,13 @@
   background-color: transparent;
 }
 
-.tin-tc .overlap-group {
+.element-light .overlap-group {
   position: relative;
   width: 440px;
   height: 432px;
 }
 
-.tin-tc .background {
+.element-light .background {
   position: absolute;
   width: 440px;
   height: 432px;
@@ -1543,7 +1502,7 @@
   background-color: #231f20;
 }
 
-.tin-tc .text-wrapper-41 {
+.element-light .text-wrapper-40 {
   position: absolute;
   width: 283px;
   height: 22px;
@@ -1558,7 +1517,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .tr-s-ch-nh-s-ph {
+.element-light .tr-s-ch-nh-s-ph {
   position: absolute;
   width: 366px;
   height: 148px;
@@ -1572,7 +1531,7 @@
   line-height: 22px;
 }
 
-.tin-tc .text-wrapper-42 {
+.element-light .text-wrapper-41 {
   position: absolute;
   width: 140px;
   height: 22px;
@@ -1587,7 +1546,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .heading-11 {
+.element-light .heading-11 {
   height: 22px;
   top: 282px;
   position: absolute;
@@ -1595,7 +1554,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-43 {
+.element-light .text-wrapper-42 {
   position: absolute;
   width: 122px;
   height: 16px;
@@ -1610,7 +1569,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .heading-12 {
+.element-light .heading-12 {
   height: 22px;
   top: 304px;
   position: absolute;
@@ -1618,7 +1577,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-44 {
+.element-light .text-wrapper-43 {
   position: absolute;
   width: 137px;
   height: 16px;
@@ -1633,7 +1592,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .heading-13 {
+.element-light .heading-13 {
   height: 22px;
   top: 326px;
   position: absolute;
@@ -1641,7 +1600,7 @@
   left: 20px;
 }
 
-.tin-tc .text-wrapper-45 {
+.element-light .text-wrapper-44 {
   position: absolute;
   width: 122px;
   height: 16px;
@@ -1656,7 +1615,7 @@
   white-space: nowrap;
 }
 
-.tin-tc .text-wrapper-46 {
+.element-light .text-wrapper-45 {
   position: absolute;
   width: 265px;
   height: 22px;
@@ -1671,14 +1630,14 @@
   white-space: nowrap;
 }
 
-.tin-tc .img {
+.element-light .container-2 {
   position: absolute;
   width: 60px;
   height: 60px;
   top: 252px;
   left: 356px;
 }
-.tin-tc {
+.element-light {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -1686,161 +1645,330 @@
   width: 100%;
 }
 
-.tin-tc .content {
+.element-light .element-w-light {
   background-color: #ffffff;
+  width: 100%;
   max-width: 440px;
-  width: 100%;
+}
+
+.element-light .body {
+  min-height: 10486px;
+}
+
+.element-light .container {
   position: relative;
-}
-
-.tin-tc .logo {
-  max-width: 407px;
   width: 100%;
-  height: auto;
-  margin: 12px;
+  max-width: 440px;
 }
 
-.tin-tc .element-light {
+.element-light .main {
+  position: relative;
   width: 100%;
-  max-height: 884px;
-  background-color: #ffffff;
-  overflow-y: auto;
-  box-shadow: 0px 1px 2px #0000000f, 0px 1px 3px #0000001a;
+  max-width: 440px;
 }
 
-.tin-tc .element-light::-webkit-scrollbar {
-  width: 0;
-  display: none;
+.element-light .list {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-.tin-tc .container {
-  padding: 20px;
+.element-light .item {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.tin-tc .breadcrumb {
-  margin-bottom: 20px;
+.element-light .div-wrapper {
+  display: inline-block;
 }
 
-.tin-tc .list {
-  display: flex;
-  align-items: center;
-}
-
-.tin-tc .item,
-.tin-tc .item-2 {
-  display: flex;
-  align-items: center;
-}
-
-.tin-tc .text-wrapper,
-.tin-tc .text-wrapper-2,
-.tin-tc .text-wrapper-3 {
-  font-family: "Inter-Regular", Helvetica;
+.element-light .text-wrapper {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #7b7979;
-  font-size: 14px;
+  font-size: 13.9px;
   line-height: 24px;
 }
 
-.tin-tc .text-wrapper-2 {
-  margin: 0 5px;
+.element-light .div {
+  display: inline-block;
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #7b7979;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 5px;
 }
 
-.tin-tc .news-list article {
-  margin-bottom: 30px;
+.element-light .item-2 {
+  display: inline-block;
 }
 
-.tin-tc .brand-gg,
-.tin-tc .brand-gg-2,
-.tin-tc .brand-gg-3,
-.tin-tc .brand-gg-29 {
+.element-light .text-wrapper-2 {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #7b7979;
+  font-size: 13.8px;
+  line-height: 24px;
+}
+
+.element-light .brand-gg,
+.element-light .img,
+.element-light .brand-gg-2,
+.element-light .brand-gg-3,
+.element-light .brand-gg-4,
+.element-light .brand-gg-5,
+.element-light .brand-gg-6,
+.element-light .brand-gg-7,
+.element-light .brand-gg-8,
+.element-light .brand-gg-9,
+.element-light .brand-gg-10,
+.element-light .brand-gg-11,
+.element-light .brand-gg-12,
+.element-light .brand-gg-13,
+.element-light .brand-gg-14,
+.element-light .brand-gg-15,
+.element-light .brand-gg-16,
+.element-light .brand-gg-17,
+.element-light .brand-gg-18,
+.element-light .brand-gg-19,
+.element-light .brand-gg-20,
+.element-light .brand-gg-21,
+.element-light .brand-gg-22,
+.element-light .brand-gg-23,
+.element-light .brand-gg-24,
+.element-light .brand-gg-25,
+.element-light .brand-gg-26,
+.element-light .brand-gg-27,
+.element-light .brand-gg-28 {
   width: 100%;
+  max-width: 440px;
   height: auto;
   object-fit: cover;
-  margin-bottom: 15px;
 }
 
-.tin-tc h2 {
-  font-family: "Inter-SemiBold", Helvetica;
+.element-light .heading,
+.element-light .linh-nh-ti-c-ngon-r-wrapper,
+.element-light .heading-2,
+.element-light .m-i-nh-t-golden-wrapper,
+.element-light .sinh-nh-t-r-c-r-wrapper,
+.element-light .tuy-n-t-p-tinh-hoa-b-wrapper,
+.element-light .b-t-i-m-i-ng-y-s-n-s-wrapper,
+.element-light .thanh-to-n-linh-ho-t-wrapper,
+.element-light .qu-t-th-VISA-nh-n-wrapper,
+.element-light .heading-3,
+.element-light .heading-4,
+.element-light .l-u-h-n-i-n-t-m-th-c-wrapper,
+.element-light .heading-5,
+.element-light .nh-ng-nguy-c-ti-m-n-wrapper,
+.element-light .top-lo-i-l-u-cay-v-wrapper,
+.element-light .nguy-n-t-c-v-ng-c-n-wrapper,
+.element-light .heading-6,
+.element-light .element-sai-l-m-c-n-tr-nh-wrapper,
+.element-light .g-c-review-n-u-ng-n-wrapper,
+.element-light .b-t-k-p-hot-trend-v-wrapper,
+.element-light .heading-7,
+.element-light .heading-8,
+.element-light .heading-9,
+.element-light .l-u-mala-l-g-c-n-s-t-wrapper,
+.element-light .top-lo-i-l-u-th-i-wrapper,
+.element-light .ti-u-ch-ch-n-qu-n-l-wrapper,
+.element-light .review-qu-n-l-u-n-m-wrapper,
+.element-light .heading-10,
+.element-light .n-m-nhi-u-t-ng-h-ng-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.element-light .NG-k-NH-n-DEAL-MI-n,
+.element-light .linh-nh-ti-c-ngon-r,
+.element-light .p,
+.element-light .m-i-nh-t-golden,
+.element-light .sinh-nh-t-r-c-r,
+.element-light .tuy-n-t-p-tinh-hoa-b,
+.element-light .b-t-i-m-i-ng-y-s-n-s,
+.element-light .thanh-to-n-linh-ho-t,
+.element-light .qu-t-th-VISA-nh-n,
+.element-light .linh-nh-ti-c-ngon-r-2,
+.element-light .text-wrapper-13,
+.element-light .text-wrapper-15,
+.element-light .text-wrapper-17,
+.element-light .nh-ng-nguy-c-ti-m-n,
+.element-light .top-lo-i-l-u-cay-v,
+.element-light .nguy-n-t-c-v-ng-c-n,
+.element-light .text-wrapper-22,
+.element-light .element-sai-l-m-c-n-tr-nh,
+.element-light .g-c-review-n-u-ng-n,
+.element-light .b-t-k-p-hot-trend-v,
+.element-light .text-wrapper-27,
+.element-light .text-wrapper-29,
+.element-light .text-wrapper-31,
+.element-light .l-u-mala-l-g-c-n-s-t,
+.element-light .top-lo-i-l-u-th-i,
+.element-light .ti-u-ch-ch-n-qu-n-l,
+.element-light .text-wrapper-37,
+.element-light .n-m-nhi-u-t-ng-h-ng {
+  font-family: "Inter-SemiBold", Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: #000000;
-  font-size: 16px;
+  font-size: 16.2px;
   line-height: 22px;
-  margin-bottom: 10px;
 }
 
-.tin-tc time {
-  font-family: "Inter-Regular", Helvetica;
+.element-light .text-wrapper-3,
+.element-light .text-wrapper-4,
+.element-light .text-wrapper-5,
+.element-light .text-wrapper-6,
+.element-light .text-wrapper-7,
+.element-light .text-wrapper-8,
+.element-light .text-wrapper-9,
+.element-light .text-wrapper-10,
+.element-light .text-wrapper-11,
+.element-light .text-wrapper-12,
+.element-light .text-wrapper-14,
+.element-light .text-wrapper-16,
+.element-light .text-wrapper-18,
+.element-light .text-wrapper-19,
+.element-light .text-wrapper-20,
+.element-light .text-wrapper-21,
+.element-light .text-wrapper-23,
+.element-light .text-wrapper-24,
+.element-light .text-wrapper-25,
+.element-light .text-wrapper-26,
+.element-light .text-wrapper-28,
+.element-light .text-wrapper-30,
+.element-light .text-wrapper-32,
+.element-light .text-wrapper-33,
+.element-light .text-wrapper-34,
+.element-light .text-wrapper-35,
+.element-light .text-wrapper-36,
+.element-light .text-wrapper-38,
+.element-light .text-wrapper-39 {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #7b7979;
   font-size: 15px;
   line-height: 24px;
+  margin: 10px 20px;
 }
 
-.tin-tc .footer {
+.element-light .footer {
   width: 100%;
+  max-width: 440px;
+  margin-top: 20px;
+}
+
+.element-light .overlap-group {
+  position: relative;
+}
+
+.element-light .background {
   background-color: #231f20;
   padding: 20px;
 }
 
-.tin-tc .text-wrapper-41 {
-  font-family: "Inter-Regular", Helvetica;
+.element-light .text-wrapper-40 {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #ffffff;
-  font-size: 13px;
-  line-height: 22px;
-  margin-bottom: 15px;
-}
-
-.tin-tc .tr-s-ch-nh-s-ph {
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #7b7979;
-  font-size: 12px;
+  font-size: 12.8px;
   line-height: 22px;
   margin-bottom: 20px;
 }
 
-.tin-tc .text-wrapper-42 {
-  font-family: "Inter-Regular", Helvetica;
+.element-light .tr-s-ch-nh-s-ph {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #7b7979;
+  font-size: 12.1px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.element-light .text-wrapper-41 {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 12.9px;
   line-height: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.tin-tc .footer nav ul {
-  list-style: none;
-  padding: 0;
+.element-light .heading-11,
+.element-light .heading-12,
+.element-light .heading-13 {
+  margin-bottom: 10px;
 }
 
-.tin-tc .footer nav a {
-  font-family: "Inter-SemiBold", Helvetica;
+.element-light .text-wrapper-42,
+.element-light .text-wrapper-43,
+.element-light .text-wrapper-44 {
+  font-family: "Inter-SemiBold", Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: #7b7979;
-  font-size: 13px;
+  font-size: 12.7px;
   line-height: 22px;
   text-decoration: none;
 }
 
-.tin-tc .text-wrapper-46 {
-  font-family: "Inter-Regular", Helvetica;
+.element-light .text-wrapper-45 {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 12.1px;
   line-height: 22px;
   margin-top: 20px;
 }
 
-.tin-tc .img {
+.element-light .container-2 {
+  position: absolute;
   width: 60px;
   height: 60px;
-  margin-top: 20px;
+  top: 252px;
+  right: 20px;
 }
 
 @media (max-width: 440px) {
-  .tin-tc .content {
+  .element-light .element-w-light,
+  .element-light .container,
+  .element-light .main,
+  .element-light .footer {
     width: 100%;
+  }
+
+  .element-light .list,
+  .element-light .heading,
+  .element-light .linh-nh-ti-c-ngon-r-wrapper,
+  .element-light .heading-2,
+  .element-light .m-i-nh-t-golden-wrapper,
+  .element-light .sinh-nh-t-r-c-r-wrapper,
+  .element-light .tuy-n-t-p-tinh-hoa-b-wrapper,
+  .element-light .b-t-i-m-i-ng-y-s-n-s-wrapper,
+  .element-light .thanh-to-n-linh-ho-t-wrapper,
+  .element-light .qu-t-th-VISA-nh-n-wrapper,
+  .element-light .heading-3,
+  .element-light .heading-4,
+  .element-light .l-u-h-n-i-n-t-m-th-c-wrapper,
+  .element-light .heading-5,
+  .element-light .nh-ng-nguy-c-ti-m-n-wrapper,
+  .element-light .top-lo-i-l-u-cay-v-wrapper,
+  .element-light .nguy-n-t-c-v-ng-c-n-wrapper,
+  .element-light .heading-6,
+  .element-light .element-sai-l-m-c-n-tr-nh-wrapper,
+  .element-light .g-c-review-n-u-ng-n-wrapper,
+  .element-light .b-t-k-p-hot-trend-v-wrapper,
+  .element-light .heading-7,
+  .element-light .heading-8,
+  .element-light .heading-9,
+  .element-light .l-u-mala-l-g-c-n-s-t-wrapper,
+  .element-light .top-lo-i-l-u-th-i-wrapper,
+  .element-light .ti-u-ch-ch-n-qu-n-l-wrapper,
+  .element-light .review-qu-n-l-u-n-m-wrapper,
+  .element-light .heading-10,
+  .element-light .n-m-nhi-u-t-ng-h-ng-wrapper {
+    width: 90%;
   }
 }
