@@ -9,52 +9,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
-        <nav class="main-nav">
-          <button class="nav-toggle" aria-label="Toggle navigation menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
-      </header>
-      <main class="main-content">
-        <section class="buffet-details">
-          <a href="#" class="back-link">
-            <span class="back-icon"></span>
-            <span class="back-text">Quay Lại</span>
-          </a>
-          <h1 class="buffet-title">Buffet Đài Ngưu Trân 369k</h1>
-          <p class="buffet-price">369.000 ₫/người</p>
-        </section>
-        <section class="food-gallery">
-          <div class="food-item">
-            <img src="img/Dau_DaiNguuTran1.png" alt="Đậu lạnh Đài Loan" class="food-image" />
-            <p class="food-name">Đậu lạnh Đài Loan</p>
-          </div>
-          <div class="food-item">
-            <img src="img/Dau_DaiNguuTran2.png" alt="Đậu hũ Surimi" class="food-image" />
-            <p class="food-name">Đậu hũ Surimi</p>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <nav class="footer-nav">
-          <ul class="footer-menu">
-            <li><a href="#lau">Lẩu</a></li>
-            <li><a href="#thit-bo-cuu">Thịt Bò - Cừu</a></li>
-            <li><a href="#thit-heo">Thịt Heo</a></li>
-            <li><a href="#noi-tang">Nội Tạng</a></li>
-            <li><a href="#do-vien">Đồ Viên</a></li>
-            <li><a href="#my">Mỳ</a></li>
-            <li><a href="#dau" class="active">Đậu</a></li>
-            <li><a href="#rau">Rau</a></li>
-            <li><a href="#nam">Nấm</a></li>
-          </ul>
-        </nav>
-      </footer>
-    </div>
+    <header class="main-header">
+      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
+      <nav class="main-nav">
+        <button class="nav-button" aria-label="Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="User Account">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main class="product-list">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#" class="back-link">
+          <span class="chevron-left" aria-hidden="true"></span>
+          ← Quay Lại
+        </a>
+      </nav>
+      <h1 class="page-title">Buffet Đài Ngưu Trân 369k</h1>
+      <h2 class="category-title">369.000 đ/Người</h2>
+      <ul class="product-grid">
+        <li class="product-item">
+          <img class="product-image" src="img/Dau_DaiNguuTran1.png" alt="Đậu lạnh Đài Loan" />
+          <h3 class="product-name">Đậu lạnh Đài Loan</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Dau_DaiNguuTran2.png" alt="Đậu hũ Surimi" />
+          <h3 class="product-name">Đậu hũ Surimi</h3>
+        </li>     
+      </ul>
+    </main>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#">Lẩu</a></li>
+        <li><a href="#">Thịt Bò - Cừu</a></li>
+        <li><a href="#">Thịt Heo</a></li>
+        <li><a href="#">Nội Tạng</a></li>
+        <li><a href="#">Đồ Viên</a></li>
+        <li><a href="#">Mỳ</a></li>
+        <li><a href="#" class="active">Đậu</a></li>
+        <li><a href="#">Rau</a></li>
+        <li><a href="#">Nấm</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
