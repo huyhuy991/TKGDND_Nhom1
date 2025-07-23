@@ -3,109 +3,98 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>Combo - Manwah Taiwanese Hotpot</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Set Uyên Ương - Manwah Taiwanese Hotpot</title>
   </head>
   <body>
-    <header class="header">
+    <header class="main-header">
       <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
       <nav class="main-nav">
-        <ul>
-          <li>
-            <a href="#" class="nav-link location-link"><span class="visually-hidden">Location</span></a>
-          </li>
-          <li>
-            <a href="#" class="nav-link profile-link"><span class="visually-hidden">Profile</span></a>
-          </li>
-          <li>
-            <button class="nav-link menu-toggle" aria-label="Toggle Menu">
-              <span class="visually-hidden">Menu</span>
-            </button>
-          </li>
-        </ul>
+        <button class="nav-button" aria-label="Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="User Account">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
       </nav>
     </header>
-    <main class="main-content">
+    <main class="product-list">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="#" class="back-link">
-          <span class="back-icon" aria-hidden="true"></span>
-          Quay Lại
+          <span class="chevron-left" aria-hidden="true"></span>
+          ← Quay Lại
         </a>
       </nav>
-      <section class="product-details">
-        <h1 class="product-title">Set Uyên Ương</h1>
-        <p class="product-price">1.499.000 ₫ /combo</p>
-        <p class="product-tax-info">(Giá chưa bao gồm VAT)</p>
-      </section>
-      <section class="product-items">
-        <h2 class="visually-hidden">Danh sách món ăn</h2>
-        <ul class="item-list">
-          <li class="item">
-            <img src="img/Set_Uyen_Uong1.png" alt="Lẩu nấm" class="item-image" />
-            <p class="item-name">Lẩu nấm 1/4 nồi (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong2.png" alt="Lẩu Thái" class="item-image" />
-            <p class="item-name">Lẩu Thái 1/4 nồi (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong3.png" alt="Lẩu Đài Bắc" class="item-image" />
-            <p class="item-name">Lẩu Đài Bắc 1/4 nồi (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong4.png" alt="Lẩu Mala" class="item-image" />
-            <p class="item-name">Lẩu Mala 1/4 nồi (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong5.png" alt="Wagyu thượng hạng" class="item-image" />
-            <p class="item-name">Wagyu thượng hạng<br />159.000 ₫</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong6.png" alt="Bắp heo Mỹ cuộn" class="item-image" />
-            <p class="item-name">Bắp heo Mỹ cuộn</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong7.png" alt="Tôm sú" class="item-image" />
-            <p class="item-name">Tôm sú ALC<br />199.000 ₫</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong8.png" alt="Thịt cá hồi" class="item-image" />
-            <p class="item-name">Thịt cá hồi (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong9.png" alt="Sò điệp" class="item-image" />
-            <p class="item-name">Sò điệp (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong10.png" alt="Mỳ tươi" class="item-image" />
-            <p class="item-name">Mỳ tươi</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong11.png" alt="Đậu hũ phomai" class="item-image" />
-            <p class="item-name">Đậu hũ phomai (ALC)</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong12.png" alt="Xúc xích phô mai" class="item-image" />
-            <p class="item-name">Xúc xích phô mai</p>
-          </li>
-          <li class="item">
-            <img src="img/Set_Uyen_Uong13.png" alt="Rau nấm tổng hợp" class="item-image" />
-            <p class="item-name">Rau nấm tổng hợp (ALC)</p>
-          </li>
-        </ul>
-      </section>
+      <h1 class="page-title">Combo Set Uyên Ương</h1>
+      <h2 class="category-title">1.499.000 đ/Người</h2>
+      <p class="vat-note">(Giá chưa bao gồm VAT)</p>
+      <ul class="product-grid">
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong1.png" alt="Lẩu nấm" />
+          <h3 class="product-name">Lẩu nấm 1/4 nồi (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong2.png" alt="Lẩu Thái" />
+          <h3 class="product-name">Lẩu Thái 1/4 nồi (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong3.png" alt="Lẩu Đài Bắc" />
+          <h3 class="product-name">Lẩu Đài Bắc 1/4 nồi (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong4.png" alt="Lẩu Mala" />
+          <h3 class="product-name">Lẩu Mala 1/4 nồi (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong5.png" alt="Wagyu thượng hạng" />
+          <h3 class="product-name">Wagyu thượng hạng<br />159.000 ₫</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong6.png" alt="Bắp heo Mỹ cuộn" />
+          <h3 class="product-name">Bắp heo Mỹ cuộn</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong7.png" alt="Tôm sú" />
+          <h3 class="product-name">Tôm sú (ALC)<br />199.000 ₫</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong8.png" alt="Thịt cá hồi" />
+          <h3 class="product-name">Thịt cá hồi (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong9.png" alt="Sò điệp" />
+          <h3 class="product-name">Sò điệp (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong10.png" alt="Mỳ tươi" />
+          <h3 class="product-name">Mỳ tươi</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong11.png" alt="Đậu hũ phomai" />
+          <h3 class="product-name">Đậu hũ phomai (ALC)</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong12.png" alt="Xúc xích phô mai" />
+          <h3 class="product-name">Xúc xích phô mai</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/Set_Uyen_Uong13.png" alt="Rau nấm tổng hợp" />
+          <h3 class="product-name">Rau nấm tổng hợp (ALC)</h3>
+        </li>
+      </ul>
     </main>
-    <footer class="footer">
-      <nav class="set-navigation" aria-label="Chọn set món">
-        <ul>
-          <li><a href="#" class="set-link">Set Song Vũ</a></li>
-          <li><a href="#" class="set-link active">Set Uyên Ương</a></li>
-          <li><a href="#" class="set-link">Set Phúc Dĩ Tường</a></li>
-          <li><a href="#" class="set-link">Set Phúc Dĩ An</a></li>
-        </ul>
-      </nav>
-    </footer>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#">Set Song Vũ</a></li>
+        <li><a href="#" class="active">Set Uyên Ương</a></li>
+        <li><a href="#">Set Phúc Dĩ Tường</a></li>
+        <li><a href="#">Set Phúc Dĩ An</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
