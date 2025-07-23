@@ -3,66 +3,70 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>Buffet Đài Ngưu Trân - Manwah Taiwanese Hotpot</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Buffet Đài Ngưu Trân 369k - ManWah</title>
   </head>
   <body>
-    <div class="m">
-      <header class="header">
-        <img class="nhm-menu" src="img/nh-m-menu.png" alt="ManWah logo and menu" />
-      </header>
-      <main class="main-content">
-        <nav class="navigation">
-          <a href="#" class="back-link">
-            <span class="chevron-left"></span>
-            <span>Quay Lại</span>
-          </a>
-        </nav>
-        <h1 class="title">Buffet Đài Ngưu Trân 369k</h1>
-        <p class="price">369.000 ₫/người</p>
-        <section class="menu-items">
-          <h2 class="visually-hidden">Danh sách món ăn</h2>
-          <ul class="menu-grid">
-            <li class="menu-item">
-              <img src="img/My_DaiNguuTran1.png" alt="Bánh đa Hồng Kông" class="menu-image" />
-              <p class="menu-name">Bánh đa Hồng Kông</p>
-            </li>
-            <li class="menu-item">
-              <img src="img/My_DaiNguuTran2.png" alt="Mỳ rong biển" class="menu-image" />
-              <p class="menu-name">Mỳ rong biển</p>
-            </li>
-            <li class="menu-item">
-              <img src="img/My_DaiNguuTran3.png" alt="Mỳ tươi" class="menu-image" />
-              <p class="menu-name">Mỳ tươi</p>
-            </li>
-            <li class="menu-item">
-              <img src="img/My_DaiNguuTran4.png" alt="Phở Khô" class="menu-image" />
-              <p class="menu-name">Phở Khô</p>
-            </li>
-            <li class="menu-item">
-              <img src="img/My_DaiNguuTran5.png" alt="Mỳ Trùng Khánh" class="menu-image" />
-              <p class="menu-name">Mỳ Trùng Khánh</p>
-            </li>
-          </ul>
-        </section>
-      </main>
-      <footer class="footer">
-        <nav class="category-nav">
-          <ul class="category-list">
-            <li><a href="#lau">Lẩu</a></li>
-            <li><a href="#thit-bo-cuu">Thịt Bò - Cừu</a></li>
-            <li><a href="#thit-heo">Thịt Heo</a></li>
-            <li><a href="#noi-tang">Nội Tạng</a></li>
-            <li><a href="#do-vien">Đồ Viên</a></li>
-            <li><a href="#my" class="active">Mỳ</a></li>
-            <li><a href="#dau">Đậu</a></li>
-            <li><a href="#rau">Rau</a></li>
-            <li><a href="#nam">Nấm</a></li>
-          </ul>
-        </nav>
-      </footer>
-    </div>
+    <header class="main-header">
+      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
+      <nav class="main-nav">
+        <button class="nav-button" aria-label="Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="User Account">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main class="product-list">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#" class="back-link">
+          <span class="chevron-left" aria-hidden="true"></span>
+          ← Quay Lại
+        </a>
+      </nav>
+      <h1 class="page-title">Buffet Đài Ngưu Trân 369k</h1>
+      <h2 class="category-title">369.000 đ/Người</h2>
+      <ul class="product-grid">
+        <li class="product-item">
+          <img class="product-image" src="img/My_DaiNguuTran1.png" alt="Bánh đa Hồng Kông" />
+          <h3 class="product-name">Bánh đa Hồng Kông</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/My_DaiNguuTran2.png" alt="Mỳ rong biển" />
+          <h3 class="product-name">Mỳ rong biển</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/My_DaiNguuTran3.png" alt="Mỳ tươi" />
+          <h3 class="product-name">Mỳ tươi</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/My_DaiNguuTran4.png" alt="Phở Khô" />
+          <h3 class="product-name">Phở Khô</h3>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/My_DaiNguuTran5.png" alt="Mỳ Trùng Khánh" />
+          <h3 class="product-name">Mỳ Trùng Khánh</h3>
+        </li>
+      </ul>
+    </main>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#">Lẩu</a></li>
+        <li><a href="#">Thịt Bò - Cừu</a></li>
+        <li><a href="#">Thịt Heo</a></li>
+        <li><a href="#">Nội Tạng</a></li>
+        <li><a href="#">Đồ Viên</a></li>
+        <li><a href="#" class="active">Mỳ</a></li>
+        <li><a href="#">Đậu</a></li>
+        <li><a href="#">Rau</a></li>
+        <li><a href="#">Nấm</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
