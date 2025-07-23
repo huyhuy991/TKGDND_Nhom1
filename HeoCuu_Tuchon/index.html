@@ -3,75 +3,80 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <title>Manwah - Món lẻ Heo - Cừu</title>
+    <title>Manwah - Món lẻ Thịt Heo - Cừu</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <img class="logo" src="img/nh-m-menu.png" alt="Manwah logo" />
+    <header class="main-header">
+      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
       <nav class="main-nav">
-        <button class="user-profile" aria-label="User profile"></button>
-        <button class="menu-toggle" aria-label="Toggle menu"></button>
+        <button class="nav-button" aria-label="Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="User Account">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
       </nav>
     </header>
-    <main class="main-content">
+    <main class="product-list">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="#" class="back-link">
           <span class="chevron-left" aria-hidden="true"></span>
-          Quay Lại
+          ← Quay Lại
         </a>
       </nav>
       <h1 class="page-title">Món lẻ</h1>
-      <h2 class="page-subtitle">Heo - Cừu</h2>
-      <section class="product-grid">
-        <article class="product-card">
+      <h2 class="category-title">Thịt Heo - Cừu</h2>
+      <ul class="product-grid">
+        <li class="product-item">
           <img class="product-image" src="img/HeoCuu_Tuchon1.png" alt="Ba chỉ cừu" />
           <h3 class="product-name">Ba chỉ cừu</h3>
           <p class="product-price">79.000 ₫</p>
-        </article>
-        <article class="product-card">
+        </li>
+        <li class="product-item">
           <img class="product-image" src="img/HeoCuu_Tuchon2.png" alt="Má heo" />
           <h3 class="product-name">Má heo</h3>
           <p class="product-price">99.000 ₫</p>
-        </article>
-        <article class="product-card">
+        </li>
+        <li class="product-item">
           <img class="product-image" src="img/HeoCuu_Tuchon3.png" alt="Bắp heo Mỹ cuộn" />
           <h3 class="product-name">Bắp heo Mỹ cuộn</h3>
           <p class="product-price">59.000 ₫</p>
-        </article>
-        <article class="product-card">
+        </li>
+        <li class="product-item">
           <img class="product-image" src="img/HeoCuu_Tuchon4.png" alt="Ba chỉ heo Iberico" />
           <h3 class="product-name">Ba chỉ heo Iberico</h3>
           <p class="product-price">49.000 ₫</p>
-        </article>
-        <article class="product-card">
+        </li>
+        <li class="product-item">
           <img class="product-image" src="img/HeoCuu_Tuchon5.png" alt="Nạc vai heo Iberico" />
           <h3 class="product-name">Nạc vai heo Iberico</h3>
           <p class="product-price">49.000 ₫</p>
-        </article>
-        <article class="product-card">
+        </li>
+        <li class="product-item">
           <img class="product-image" src="img/HeoCuu_Tuchon6.png" alt="Thịt heo mỹ vị" />
           <h3 class="product-name">Thịt heo mỹ vị</h3>
           <p class="product-price">49.000 ₫</p>
-        </article>
-      </section>
+        </li>
+      </ul>
     </main>
-    <footer class="footer">
-      <nav class="category-nav" aria-label="Product categories">
-        <ul class="category-list">
-          <li><a href="#" class="category-link">Lẩu</a></li>
-          <li><a href="#" class="category-link active">Heo - Cừu</a></li>
-          <li><a href="#" class="category-link">Bò</a></li>
-          <li><a href="#" class="category-link">Nội Tạng</a></li>
-          <li><a href="#" class="category-link">Hải sản</a></li>
-          <li><a href="#" class="category-link">Đậu hũ &amp; Đồ viên</a></li>
-          <li><a href="#" class="category-link">Há cảo &amp; Sủi cảo</a></li>
-          <li><a href="#" class="category-link">Rau &amp; Nấm</a></li>
-          <li><a href="#" class="category-link">Mỳ</a></li>
-        </ul>
-      </nav>
-    </footer>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#">Lẩu</a></li>
+        <li><a href="#" class="active">Heo - Cừu</a></li>
+        <li><a href="#">Bò</a></li>
+        <li><a href="#">Nội Tạng</a></li>
+        <li><a href="#">Hải sản</a></li>
+        <li><a href="#">Đậu hũ &amp; Đồ viên</a></li>
+        <li><a href="#">Há cảo &amp; Sủi cảo</a></li>
+        <li><a href="#">Rau &amp; Nấm</a></li>
+        <li><a href="#">Mỳ</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
