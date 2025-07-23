@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;800&display=swap");
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -30,5 +31,10 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
