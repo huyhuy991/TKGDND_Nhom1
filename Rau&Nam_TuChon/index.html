@@ -3,167 +3,170 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>Manwah - Món lẻ Rau & Nấm</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Rau & Nấm - Manwah Taiwanese Hotpot</title>
   </head>
   <body>
     <header class="main-header">
-      <img class="logo" src="img/nh-m-menu.png" alt="Manwah logo" />
+      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
       <nav class="main-nav">
-        <button class="user-profile" aria-label="User profile"></button>
-        <button class="menu-toggle" aria-label="Toggle menu"></button>
+        <button class="nav-button" aria-label="Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="User Account">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
       </nav>
     </header>
-    <main class="rau-nm">
-      <section class="content">
-        <nav class="breadcrumb">
-          <button class="back-button" onclick="history.back()">
-            <span class="chevron-left"></span>
-            <span>Quay Lại</span>
-          </button>
-        </nav>
-        <h1 class="page-title">Món lẻ</h1>
-        <h2 class="category-title">Rau & Nấm</h2>
-        <div class="product-grid">
-          <article class="product-card">
-            <img src="img/RauNam_TuChon1.png" alt="Rau nấm tổng hợp" class="product-image" />
-            <h3 class="product-name">Rau nấm tổng hợp</h3>
-            <p class="product-price">89.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon2.png" alt="Rau tổng hợp" class="product-image" />
-            <h3 class="product-name">Rau tổng hợp</h3>
-            <p class="product-price">35.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon3.png" alt="Nấm tổng hợp" class="product-image" />
-            <h3 class="product-name">Nấm tổng hợp</h3>
-            <p class="product-price">29.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon4.png" alt="Nấm đông trùng hạ thảo" class="product-image" />
-            <h3 class="product-name">Nấm đông trùng hạ thảo</h3>
-            <p class="product-price">89.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon5.png" alt="Nấm nhung hươu" class="product-image" />
-            <h3 class="product-name">Nấm nhung hươu</h3>
-            <p class="product-price">79.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon6.png" alt="Nấm vị cua trắng" class="product-image" />
-            <h3 class="product-name">Nấm vị cua trắng</h3>
-            <p class="product-price">39.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon7.png" alt="Nấm vị cua nâu" class="product-image" />
-            <h3 class="product-name">Nấm vị cua nâu</h3>
-            <p class="product-price">39.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon8.png" alt="Nấm trâm trắng" class="product-image" />
-            <h3 class="product-name">Nấm trâm trắng</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon9.png" alt="Nấm tiên" class="product-image" />
-            <h3 class="product-name">Nấm tiên</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon10.png" alt="Nấm hải sản" class="product-image" />
-            <h3 class="product-name">Nấm hải sản</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon11.png" alt="Ngô ngọt" class="product-image" />
-            <h3 class="product-name">Ngô ngọt</h3>
-            <p class="product-price">35.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon12.png" alt="Rong biển Hàn Quốc" class="product-image" />
-            <h3 class="product-name">Rong biển Hàn Quốc</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon13.png" alt="Khoai lang nhật" class="product-image" />
-            <h3 class="product-name">Khoai lang nhật</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon14.png" alt="Khoai môn" class="product-image" />
-            <h3 class="product-name">Khoai môn</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon15.png" alt="Đậu bắp" class="product-image" />
-            <h3 class="product-name">Đậu bắp</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon16.png" alt="Rau diếp thơm" class="product-image" />
-            <h3 class="product-name">Rau diếp thơm</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon17.png" alt="Rau muống" class="product-image" />
-            <h3 class="product-name">Rau muống</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon18.png" alt="Rau cải ngọt" class="product-image" />
-            <h3 class="product-name">Rau cải ngọt</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon19.png" alt="Rau bắp cải" class="product-image" />
-            <h3 class="product-name">Rau bắp cải</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon20.png" alt="Rau cải cúc" class="product-image" />
-            <h3 class="product-name">Rau cải cúc</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon21.png" alt="Rau cần" class="product-image" />
-            <h3 class="product-name">Rau cần</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon22.png" alt="Rau cải chíp" class="product-image" />
-            <h3 class="product-name">Rau cải chíp</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon23.png" alt="Rau cải xanh" class="product-image" />
-            <h3 class="product-name">Rau cải xanh</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-          <article class="product-card">
-            <img src="img/RauNam_TuChon24.png" alt="Rau cải thảo" class="product-image" />
-            <h3 class="product-name">Rau cải thảo</h3>
-            <p class="product-price">19.000 ₫</p>
-          </article>
-        </div>
-      </section>
-    </main>
-    <footer class="category-nav">
-      <nav>
-        <ul>
-          <li><a href="#lau">Lẩu</a></li>
-          <li><a href="#heo-cuu">Heo - Cừu</a></li>
-          <li><a href="#bo">Bò</a></li>
-          <li><a href="#noi-tang">Nội Tạng</a></li>
-          <li><a href="#hai-san">Hải sản</a></li>
-          <li><a href="#dau-hu-do-vien">Đậu hũ & Đồ viên</a></li>
-          <li><a href="#ha-cao-sui-cao">Há cảo & Sủi cảo</a></li>
-          <li><a href="#rau-nam" class="active">Rau & Nấm</a></li>
-          <li><a href="#my">Mỳ</a></li>
-        </ul>
+    <main class="product-list">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#" class="back-link">
+          <span class="chevron-left" aria-hidden="true"></span>
+          ← Quay Lại
+        </a>
       </nav>
-    </footer>
+      <h1 class="page-title">Món lẻ</h1>
+      <h2 class="category-title">Rau & Nấm</h2>
+      <ul class="product-grid">
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon1.png" alt="Rau nấm tổng hợp" />
+          <h3 class="product-name">Rau nấm tổng hợp</h3>
+          <p class="product-price">89.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon2.png" alt="Rau tổng hợp" />
+          <h3 class="product-name">Rau tổng hợp</h3>
+          <p class="product-price">35.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon3.png" alt="Nấm tổng hợp" />
+          <h3 class="product-name">Nấm tổng hợp</h3>
+          <p class="product-price">29.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon4.png" alt="Nấm đông trùng hạ thảo" />
+          <h3 class="product-name">Nấm đông trùng hạ thảo</h3>
+          <p class="product-price">89.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon5.png" alt="Nấm nhung hươu" />
+          <h3 class="product-name">Nấm nhung hươu</h3>
+          <p class="product-price">79.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon6.png" alt="Nấm vị cua trắng" />
+          <h3 class="product-name">Nấm vị cua trắng</h3>
+          <p class="product-price">39.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon7.png" alt="Nấm vị cua nâu" />
+          <h3 class="product-name">Nấm vị cua nâu</h3>
+          <p class="product-price">39.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon8.png" alt="Nấm trâm trắng" />
+          <h3 class="product-name">Nấm trâm trắng</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon9.png" alt="Nấm tiên" />
+          <h3 class="product-name">Nấm tiên</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon10.png" alt="Nấm hải sản" />
+          <h3 class="product-name">Nấm hải sản</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon11.png" alt="Ngô ngọt" />
+          <h3 class="product-name">Ngô ngọt</h3>
+          <p class="product-price">35.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon12.png" alt="Rong biển Hàn Quốc" />
+          <h3 class="product-name">Rong biển Hàn Quốc</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon13.png" alt="Khoai lang nhật" />
+          <h3 class="product-name">Khoai lang nhật</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon14.png" alt="Khoai môn" />
+          <h3 class="product-name">Khoai môn</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon15.png" alt="Đậu bắp" />
+          <h3 class="product-name">Đậu bắp</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon16.png" alt="Rau diếp thơm" />
+          <h3 class="product-name">Rau diếp thơm</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon17.png" alt="Rau muống" />
+          <h3 class="product-name">Rau muống</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon18.png" alt="Rau cải ngọt" />
+          <h3 class="product-name">Rau cải ngọt</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon19.png" alt="Rau bắp cải" />
+          <h3 class="product-name">Rau bắp cải</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon20.png" alt="Rau cải cúc" />
+          <h3 class="product-name">Rau cải cúc</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon21.png" alt="Rau cần" />
+          <h3 class="product-name">Rau cần</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon22.png" alt="Rau cải chíp" />
+          <h3 class="product-name">Rau cải chíp</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon23.png" alt="Rau cải xanh" />
+          <h3 class="product-name">Rau cải xanh</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+        <li class="product-item">
+          <img class="product-image" src="img/RauNam_TuChon24.png" alt="Rau cải thảo" />
+          <h3 class="product-name">Rau cải thảo</h3>
+          <p class="product-price">19.000 ₫</p>
+        </li>
+      </ul>
+    </main>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#">Lẩu</a></li>
+        <li><a href="#">Heo - Cừu</a></li>
+        <li><a href="#">Bò</a></li>
+        <li><a href="#">Nội Tạng</a></li>
+        <li><a href="#">Hải sản</a></li>
+        <li><a href="#">Đậu hũ &amp; Đồ viên</a></li>
+        <li><a href="#">Há cảo &amp; Sủi cảo</a></li>
+        <li><a href="#" class="active">Rau &amp; Nấm</a></li>
+        <li><a href="#">Mỳ</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
