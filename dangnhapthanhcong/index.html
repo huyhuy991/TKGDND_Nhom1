@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manwah Taiwanese Hotpot - Đăng nhập</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Đăng nhập thành công - Manwah</title>
   </head>
   <body>
-    <div class="login-success">
-      <header class="header">
-        <img class="logo" src="img/logo.png" alt="Manwah logo" />
-        <nav class="nav">
-          <button class="nav-button location" aria-label="Vị trí">
-            <img src="img/vector2.svg" alt="Biểu tượng vị trí" />
-          </button>
-          <button class="nav-button user" aria-label="Tài khoản">
-            <img src="img/vector3.svg" alt="Biểu tượng người dùng" />
-            <img src="img/vector4.svg" alt="Biểu tượng người dùng" />
-          </button>
-          <button class="nav-button menu" aria-label="Menu">
-            <span class="menu-line"></span>
-            <span class="menu-line"></span>
-            <span class="menu-line"></span>
-            <span class="menu-line"></span>
-          </button>
-        </nav>
-      </header>
-      <main class="main-content">
-        <a href="#" class="back-link">Quay Lại</a>
-        <section class="login-section">
-          <h1>Đăng nhập</h1>
-          <p class="success-message">Bạn đã đăng nhập thành công</p>
-          <button class="continue-button">Tiếp Tục</button>
-        </section>
-      </main>
-      <footer class="footer">
-        <div class="footer-content">
-          <h2 class="company-name">CÔNG TY CỔ PHẦN TẬP ĐOÀN GOLDEN GATE</h2>
-          <address class="company-address">
-            Trụ sở chính: Số 60 Phố Giang Văn Minh, Phường Đội Cấn,<br />
-            Quận Ba Đình, Thành phố Hà Nội, Việt Nam<br />
-            VPGG: Tầng 6, Tòa nhà Toyota, Số 315 Trường Chinh, P.Khương<br />
-            Mai, Q.Thanh Xuân, TP Hà Nội, Việt Nam.<br />
-            Chịu trách nhiệm nội dung: (Ông) Lê Quốc Tuấn<br />
-            GPĐK: 0102721191 cấp ngày 09/04/2008<br />
-            ĐT: 043 222 3000 Email: support.hn@ggg.com.vn
-          </address>
-          <h3 class="support-title">HỖ TRỢ KHÁCH HÀNG</h3>
-          <nav class="footer-nav">
-            <a href="#" class="footer-link">Điều khoản sử dụng</a>
-            <a href="#" class="footer-link">Chính sách thành viên</a>
-            <a href="#" class="footer-link">Chính sách bảo mật</a>
+    <header class="main-header">
+      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
+      <nav class="main-nav">
+        <button class="nav-button" aria-label="Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="User Account">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </button>
+        <button class="nav-button" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="login-section">
+        <h1 id="login-title">Đăng nhập</h1>
+        <p class="login-description" id="login-desc">
+          Nhập số điện thoại của bạn, chúng tôi sẽ gửi OTP cho bạn
+        </p>
+        <form class="login-form" id="login-form">
+          <div class="phone-input">
+            <input type="tel" id="phone" name="phone" placeholder="Vui Lòng Nhập Số Điện Thoại" required />
+          </div>
+          <div class="terms-agreement">
+            <input type="checkbox" id="terms-checkbox" name="terms-agreement" required />
+            <label for="terms-checkbox">
+              Bằng việc tiếp tục, bạn xác nhận đã đọc và đồng ý với các
+              <a href="#">Điều khoản sử dụng</a>, <a href="#">Chính sách bảo mật</a> và
+              <a href="#">Chính sách thành viên</a>.
+            </label>
+          </div>
+          <button type="submit" class="login-button">Đăng Nhập</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <h2>CÔNG TY CỔ PHẦN TẬP ĐOÀN GOLDEN GATE</h2>
+        <address>
+          Trụ sở chính: Số 60 Phố Giang Văn Minh, Phường Đội Cấn, Quận Ba Đình, Thành phố Hà Nội, Việt Nam<br />
+          VPGG: Tầng 6, Tòa nhà Toyota, Số 315 Trường Chinh, P.Khương Mai, Q.Thanh Xuân, TP Hà Nội, Việt Nam.<br />
+          Chịu trách nhiệm nội dung: (Ông) Lê Quốc Tuấn<br />
+          GPĐK: 0102721191 cấp ngày 09/04/2008<br />
+          ĐT: 043 222 3000 Email: support.hn@ggg.com.vn
+        </address>
+        <section class="customer-support">
+          <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+          <nav>
+            <ul>
+              <li><a href="#">Điều khoản sử dụng</a></li>
+              <li><a href="#">Chính sách thành viên</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+            </ul>
           </nav>
-          <p class="copyright">© 2011 Golden Gate ., JSC. All rights reserved</p>
-          <a href="tel:+84432223000" class="support-phone" aria-label="Gọi hỗ trợ">
-            <img src="img/vector.png" alt="Biểu tượng điện thoại" />
-          </a>
-        </div>
-      </footer>
-    </div>
+        </section>
+        <p class="copyright">© 2011 Golden Gate ., JSC. All rights reserved</p>
+      </div>
+    </footer>
+
+    <script>
+      const form = document.getElementById('login-form');
+      const title = document.getElementById('login-title');
+      const desc = document.getElementById('login-desc');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        title.textContent = 'Đăng nhập thành công';
+        desc.textContent = 'Cảm ơn bạn đã đăng nhập. Hệ thống sẽ chuyển hướng trong giây lát...';
+        form.style.display = 'none';
+
+        // (Tùy chọn) chuyển trang sau vài giây
+        setTimeout(() => {
+          window.location.href = 'trangchu.html'; // hoặc thay bằng đường dẫn khác
+        }, 3000);
+      });
+    </script>
   </body>
 </html>
