@@ -1,122 +1,236 @@
-<!DOCTYPE html>
-<html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manwah Taiwanese Hotpot - Buffet</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="main-header">
-      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
-      <nav class="main-nav">
-        <button class="nav-button" aria-label="Location">
-          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
-        </button>
-        <button class="nav-button" aria-label="User Account">
-          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
-        </button>
-        <button class="nav-button" aria-label="Menu">
-          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-        </button>
-      </nav>
-    </header>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 
-    <main class="combo">
-      <section class="menu-section">
-        <a href="#" class="back-link">← Quay Lại</a>
-        <div class="menu-items">
-          <article class="menu-item">
-            <img class="menu-image" src="img/thuonglauvangiaiky.png" alt="Buffet Đài Ngưu Trân" />
-            <div class="menu-details">
-              <h2 class="menu-title">Thưởng lẩu Vạn Giai Kỳ - Manwah tặng ngay Buffet Line 68K</h2>
-              <p class="menu-price">Thời gian áp dụng: 11/07/2025 - 31/07/2025</p>
-              <p class="menu-vat">Hết hạn sau: 7 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-          <article class="menu-item">
-            <img class="menu-image" src="img/sinhnhat.png" alt="Buffet Đài Dư Hoa" />
-            <div class="menu-details">
-              <h2 class="menu-title">Manwah mừng sinh nhật bạn với ưu đãi 1.000.000đ cho tiệc lẩu Đài Loan thêm trọn vị!</h2>
-              <p class="menu-price">Thời gian áp dụng: 23/06/2025 - 31/07/2025</p>
-              <p class="menu-vat">Hết hạn sau: 7 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-          <article class="menu-item">
-            <img class="menu-image" src="img/tangbuffet.png" alt="Buffet Vạn Giai Kỳ" />
-            <div class="menu-details">
-              <h2 class="menu-title">Đi đông là có quà – Manwah mời ngay 1 suất buffet cho nhóm 5 người!</h2>
-              <p class="menu-price">Thời gian áp dụng	23/06/2025 - 31/07/2025</p>
-              <p class="menu-vat">Hết hạn sau	7 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-          <article class="menu-item">
-            <img class="menu-image" src="img/giangvo.png" alt="Buffet Vạn Giai Kỳ" />
-            <div class="menu-details">
-              <h2 class="menu-title">Manwah Giảng Võ, Lê Thái Tổ tặng bạn 200K – cùng người thân thưởng lẩu thêm vui!              </h2>
-              <p class="menu-price">Thời gian áp dụng	20/06/2025 - 31/07/2025</p>
-              <p class="menu-vat">Hết hạn sau	7 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-          <article class="menu-item">
-            <img class="menu-image" src="img/50.png" alt="Buffet Vạn Giai Kỳ" />
-            <div class="menu-details">
-              <h2 class="menu-title">Coupon 50.000VNĐ</h2>
-              <p class="menu-price">Thời gian áp dụng	01/01/2025 - 31/12/2025</p>
-              <p class="menu-vat">Hết hạn sau	160 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-          <article class="menu-item">
-            <img class="menu-image" src="img/200.png" alt="Buffet Vạn Giai Kỳ" />
-            <div class="menu-details">
-              <h2 class="menu-title">Coupon 200.000VNĐ              </h2>
-              <p class="menu-price">Thời gian áp dụng	01/01/2025 - 31/12/2025</p>
-              <p class="menu-vat">Hết hạn sau	160 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-          <article class="menu-item">
-            <img class="menu-image" src="img/100.png" alt="Buffet Vạn Giai Kỳ" />
-            <div class="menu-details">
-              <h2 class="menu-title">Coupon 100.000VNĐ</h2>
-              <p class="menu-price">Thời gian áp dụng	01/01/2025 - 31/12/2025</p>
-              <p class="menu-vat">Hết hạn sau	160 ngày</p>
-              <a href="#" class="menu-button">Xem chi tiết</a>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-  </main>
-  <footer class="main-footer">
-    <div class="footer-content">
-      <div class="company-info">
-        <h3 class="footer-title">CÔNG TY CỔ PHẦN TẬP ĐOÀN GOLDEN GATE</h3>
-        <p class="footer-text">
-          Trụ sở chính: Số 60 Phố Giang Văn Minh, Phường Đội Cấn,<br />Quận Ba Đình, Thành phố Hà Nội, Việt Nam<br />VPGG:
-          Tầng 6, Tòa nhà Toyota, Số 315 Trường Chinh, P.Khương<br />Mai, Q.Thanh Xuân, TP Hà Nội, Việt Nam.<br />Chịu
-          trách nhiệm nội dung: (Ông) Lê Quốc Tuấn<br />GPĐK: 0102721191 cấp ngày 09/04/2008<br />ĐT: 043 222 3000
-          Email: support.hn@ggg.com.vn
-        </p>
-      </div>
-      <div class="customer-support">
-        <h3 class="footer-title">HỖ TRỢ KHÁCH HÀNG</h3>
-        <ul class="support-links">
-          <li><a href="#">Điều khoản sử dụng</a></li>
-          <li><a href="#">Chính sách thành viên</a></li>
-          <li><a href="#">Chính sách bảo mật</a></li>
-        </ul>
-      </div>
-      <p class="copyright">© 2011 Golden Gate ., JSC. All rights reserved</p>
-    </div>
-    <div class="contact-button">
-      <a href="tel:0947855900" class="phone-link">
-    </div>
-  </body>
-</html>
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 48px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background: #e0e0e0;
+}
+
+.nav-button svg {
+  width: 24px;
+  height: 24px;
+  fill: #000000;
+}
+
+.combo {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.menu-section {
+  padding: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  padding: 6px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, text-decoration 0.2s;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+}
+
+.menu-item {
+  background-color: #faf8f8;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.menu-details {
+  padding: 20px;
+}
+
+.menu-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-price {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.menu-vat {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.menu-button {
+  display: block;
+  width: 220px;
+  height: 36px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333;
+  z-index: 100;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  overflow-x: hidden;
+}
+
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-item.active {
+  color: #ff6600;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.main-footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  margin-top: 0px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.customer-support {
+  margin-top: 16px;
+}
+
+.support-links {
+  list-style: none;
+  padding: 0;
+}
+
+.support-links li {
+  margin-bottom: 6px;
+}
+
+.support-links a {
+  font-size: 0.9rem;
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.support-links a:hover {
+  color: #ff8000;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.contact-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
