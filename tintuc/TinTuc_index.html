@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manwah Taiwanese Hotpot - Combo Menu</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="TinTuc_globals.css" />
+    <link rel="stylesheet" href="TinTuc_styleguide.css" />
+    <link rel="stylesheet" href="TinTuc_style.css" />
   </head>
   <body>
     <header class="main-header">
-      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
+      <div class="logo"><a href="trangchu_index.html"><img src="img/nh-m-menu.png" alt="logo"/></a></div>
       <nav class="main-nav">
         <button class="nav-button" aria-label="Location">
           <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
@@ -19,16 +19,16 @@
         <button class="nav-button" aria-label="User Account">
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
         </button>
-        <button class="nav-button" aria-label="Menu">
-          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        <button class="nav-button" aria-label="Menu" onclick="window.location.href='Menu1_index.html'">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
         </button>
       </nav>
     </header>
 
     <main class="combo">
       <section class="menu-section">
-        <a href="#" class="back-link">← Quay Lại</a>
-        <div class="element-light">
       <div class="element-w-light">
         <main class="body">
           <div class="container">
@@ -36,7 +36,7 @@
               <nav class="list" aria-label="Breadcrumb">
                 <ol>
                   <li class="item">
-                    <a href="#" class="div-wrapper"><span class="text-wrapper">Trang chủ</span></a>
+                    <a href="trangchu_index.html" class="div-wrapper"><span class="text-wrapper">Trang chủ</span></a>
                     <span class="div">&gt;</span>
                   </li>
                   <li class="item-2"><span class="text-wrapper-2">Tin tức</span></li>
