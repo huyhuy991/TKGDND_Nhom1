@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manwah Taiwanese Hotpot - Combo Menu</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="trangchu_globals.css" />
+    <link rel="stylesheet" href="trangchu_styleguide.css" />
+    <link rel="stylesheet" href="trangchu_style.css" />
   </head>
   <body>
     <header class="main-header">
-      <img class="logo" src="img/nh-m-menu.png" alt="Manwah Taiwanese Hotpot Logo" />
+      <div class="logo"><a href="trangchu_index.html"><img src="img/nh-m-menu.png" alt="logo"/></a></div>
       <nav class="main-nav">
         <button class="nav-button" aria-label="Location">
           <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
@@ -19,9 +19,11 @@
         <button class="nav-button" aria-label="User Account">
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
         </button>
-        <button class="nav-button" aria-label="Menu">
-          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-        </button>
+        <button class="nav-button" aria-label="Menu" onclick="window.location.href='Menu1_index.html'">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </button>     
       </nav>
     </header>
     <main class="main-content">
@@ -44,7 +46,7 @@
           nguyên liệu, món ăn hài hoà sẽ tạo nên hương vị lẩu Đài Loan tỉ mỉ và tinh tế.
         </p>
         <div class="cta-container">
-          <a href="#" class="cta-button">Xem thực đơn</a>
+          <a href="Lau_TuChon_index.html" class="cta-button">Xem thực đơn</a>
         </div>
       </section>
       <section class="location-section">
@@ -76,7 +78,7 @@
               title="The New Manwah - New Identity Video">
             </iframe>
             <div class="cta-container">
-              <a href="#" class="cta-button" onclick="var player = document.querySelector('.video-player'); player.src = player.src.replace('&autoplay=0', '&autoplay=1');">Xem thêm</a>
+              <a href="https://www.youtube.com/watch?v=tsvpW_-oxm8" class="cta-button" onclick="var player = document.querySelector('.video-player'); player.src = player.src.replace('&autoplay=0', '&autoplay=1');">Xem video</a>
             </div>
           </div>
         </section>
@@ -84,67 +86,124 @@
         <div class="brand-category">
           <h3 class="category-title">HOTPOT</h3>
           <div class="brand-list">
-            <img class="brand-logo" src="img/NH-1.png" alt="Hotpot brand 1" />
-            <img class="brand-logo" src="img/NH-2.png" alt="Hotpot brand 2" />
-            <img class="brand-logo" src="img/NH-3.png" alt="Hotpot brand 3" />
-            <img class="brand-logo" src="img/NH-4.png" alt="Hotpot brand 4" />
-            <img class="brand-logo" src="img/NH-5.png" alt="Hotpot brand 5" />
+          <a href="https://ashima.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+            <img src="img/NH-1.png" alt="logo" />
+          </a>
+          <a href="https://kichi.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+            <img src="img/NH-2.png" alt="logo" />
+          </a>
+          <a href="https://manwah.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+            <img src="img/NH-3.png" alt="logo" />
+          </a>
+          <a href="https://hutong.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+            <img src="img/NH-4.png" alt="logo" />
+          </a>
+          <a href="https://ktop.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+            <img src="img/NH-5.png" alt="logo" />
+          </a>
           </div>
         </div>
         <div class="brand-category">
           <h3 class="category-title">BBQ</h3>
           <div class="brand-list">
-            <img class="brand-logo" src="img/BBQ1.png" alt="BBQ brand 1" />
-            <img class="brand-logo" src="img/BBQ2.png" alt="BBQ brand 2" />
-            <img class="brand-logo" src="img/BBQ3.png" alt="BBQ brand 3" />
-            <img class="brand-logo" src="img/BBQ4.png" alt="BBQ brand 3" />
-          </div>
+            <a href="https://sumoyakiniku.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/BBQ1.png" alt="logo" />
+            </a>
+            <a href="https://gogi.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/BBQ2.png" alt="logo" />
+            </a>
+            <a href="https://gogisteak.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/BBQ3.png" alt="logo" />
+            </a>
+            <a href="https://kpub.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/BBQ4.png" alt="logo" />
+            </a>
+            </div>
         </div>
         <div class="brand-category">
           <h3 class="category-title">JAPANESE</h3>
           <div class="brand-list">
-            <img class="brand-logo" src="img/JAPANESE1.png" alt="Japanese brand 1" />
-            <img class="brand-logo" src="img/JAPANESE2.png" alt="Japanese brand 2" />
-            <img class="brand-logo" src="img/JAPANESE3.png" alt="Japanese brand 3" />
-          </div>
+            <a href="https://isushi.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/JAPANESE1.png" alt="logo" />
+            </a>
+            <a href="https://shogun.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/JAPANESE2.png" alt="logo" />
+            </a>
+            <a href="https://daruma.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/JAPANESE3.png" alt="logo" />
+            </a>
+            </div>
         </div>
         <div class="brand-category">
           <h3 class="category-title">WESTERN</h3>
           <div class="brand-list">
-            <img class="brand-logo" src="img/WESTERN1.png" alt="Western brand 1" />
-            <img class="brand-logo" src="img/WESTERN2.png" alt="Western brand 2" />
-            <img class="brand-logo" src="img/WESTERN3.png" alt="Western brand 3" />
-          </div>
+            <a href="https://cowboyjacks.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/WESTERN1.png" alt="logo" />
+            </a>
+            <a href="https://vuvuzela.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/WESTERN2.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/unionpizzavn" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/WESTERN3.png" alt="logo" />
+            </a>
+            </div>
         </div>
         <div class="brand-category">
           <h3 class="category-title">DELIVERY</h3>
           <div class="brand-list">
-            <img class="brand-logo" src="img/DELIVERY1.png" alt="Delivery brand 1" />
-            <img class="brand-logo" src="img/DELIVERY2.png" alt="Delivery brand 2" />
-          </div>
+            <a href="https://icook.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/DELIVERY1.png" alt="logo" />
+            </a>
+            <a href="https://gdeli.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/DELIVERY2.png" alt="logo" />
+            </a>
+            </div>
         </div>
         <div class="brand-category">
           <h3 class="category-title">OTHERS</h3>
           <div class="brand-list extended">
-            <img class="brand-logo" src="img/OTHERS1.png" alt="Other brand 1" />
-            <img class="brand-logo" src="img/OTHERS2.png" alt="Other brand 2" />
-            <img class="brand-logo" src="img/OTHERS3.png" alt="Other brand 3" />
-            <img class="brand-logo" src="img/OTHERS4.png" alt="Other brand 4" />
-            <img class="brand-logo" src="img/OTHERS5.png" alt="Other brand 5" />
-            <img class="brand-logo" src="img/OTHERS6.png" alt="Other brand 6" />
-            <img class="brand-logo" src="img/OTHERS7.png" alt="Other brand 7" />
-            <img class="brand-logo" src="img/OTHERS8.png" alt="Other brand 8" />
-            <img class="brand-logo" src="img/OTHERS9.png" alt="Other brand 9" />
-            <img class="brand-logo" src="img/OTHERS10.png" alt="Other brand 10" />
-            <img class="brand-logo" src="img/OTHERS11.png" alt="Other brand 11" />
-            <img class="brand-logo" src="img/OTHERS12.png" alt="Other brand 12" />
-            <img class="brand-logo" src="img/OTHERS13.png" alt="Other brand 13" />
-          </div>
+            <a href="https://37street.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS1.png" alt="logo" />
+            </a>
+            <a href="https://hangcuon.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS2.png" alt="logo" />
+            </a>
+            <a href="https://cloudpot.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS3.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/ipho.vietnam/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS4.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/sungquan.hanoi" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS5.png" alt="logo" />
+            </a>
+            <a href="https://crystaljade.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHER6.png" alt="logo" />
+            </a>
+            <a href="https://chixmax.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS7.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/CitiBeerStation" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS8.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/makmak.thaikitchen" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS9.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/The.Coffee.Inn.2018/?locale=vi_VN" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS10.png" alt="logo" />
+            </a>
+            <a href="https://yutang.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS11.png" alt="logo" />
+            </a>
+            <a href="https://www.facebook.com/universaltea.utea" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS12.png" alt="logo" />
+            </a>
+            <a href="https://lachcalachcach.com.vn/" class="brand-logo" target="_blank" rel="noopener noreferrer">
+              <img src="img/OTHERS13.png" alt="logo" />
+            </a>
+            </div>
         </div>
       </section>
-      <div class="cta-container">
-        <a href="#" class="cta-button">Xem thêm</a>
-      </div>
       <section class="app-download">
         <h2 class="app-title">Tải App Golden SpoonS</h2>
         <div class="app-links">
