@@ -1,0 +1,344 @@
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 440px;
+  height: 956px;
+  position: relative;
+}
+
+.menu .group {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 77px;
+  left: 360px;
+}
+
+.menu .overlap-group {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  top: -1px;
+  left: -1px;
+  background-image: url(./img/vector-2.svg);
+  background-size: 100% 100%;
+}
+
+.menu .vector {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+
+.menu .text-wrapper {
+  position: absolute;
+  top: 261px;
+  left: 69px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .overlap {
+  position: absolute;
+  width: 215px;
+  height: 49px;
+  top: 907px;
+  left: 0;
+  background-color: #ff8f08;
+}
+
+.menu .text-wrapper-2 {
+  position: absolute;
+  top: 16px;
+  left: 87px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #2a00ff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.menu .div-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 49px;
+  top: 907px;
+  left: 216px;
+  background-color: #ff8f08;
+}
+
+.menu .text-wrapper-3 {
+  position: absolute;
+  top: 16px;
+  left: 94px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #2a00ff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.menu .frame {
+  width: 444px;
+  gap: 26px;
+  top: 360px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.menu .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.menu .img {
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  top: 261px;
+  left: 45px;
+}
+
+.menu .line-2 {
+  position: absolute;
+  width: 440px;
+  height: 1px;
+  top: 243px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .frame-2 {
+  width: 54px;
+  height: 72px;
+  gap: 8px;
+  padding: 0px 0px 20px;
+  top: 288px;
+  left: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.menu .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000066;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000066;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -8.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000066;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Inject original CSS here */
+
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-container {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  max-width: 440px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-header {
+  padding: 20px;
+  text-align: right;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.vector {
+  width: 25px;
+  height: 25px;
+}
+
+.menu-title {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.menu-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  border: none;
+  margin: 0 0 20px 0;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #00000066;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.submenu {
+  padding: 0 20px;
+}
+
+.submenu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.submenu-item {
+  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 26px;
+}
+
+.menu-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.cta-button {
+  flex: 1;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #2a00ff;
+  font-size: 15px;
+  text-decoration: underline;
+  background-color: #ff8f08;
+}
+
+@media (max-width: 440px) {
+  .menu-container {
+    width: 100%;
+  }
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.social-link {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.social-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
